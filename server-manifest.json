@@ -3655,5 +3655,6 @@
   "shaderpacks": [],
   "defaultShader": null,
   "serverBanner": "server-banner.png",
-  "serverBannerVersion": "baef2dc0"
+  "serverBannerVersion": "baef2dc0",
+  "serverMapUrl": "http://gaming.by-dp.de:1038/"
 }
