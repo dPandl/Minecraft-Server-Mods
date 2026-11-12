@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "serverName": "",
+  "serverName": "Dream Plaza",
   "serverAddress": "",
   "gameVersion": "26.3",
   "loader": "fabric",
@@ -3653,5 +3653,7 @@
   ],
   "resourcepacks": [],
   "shaderpacks": [],
-  "defaultShader": null
+  "defaultShader": null,
+  "serverBanner": "server-banner.png",
+  "serverBannerVersion": "baef2dc0"
 }
