@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "serverName": "Dream Plaza",
-  "serverAddress": "",
+  "serverAddress": "gaming.by-dp.de",
   "gameVersion": "26.3",
   "loader": "fabric",
   "loaderVersion": "0.19.5",
