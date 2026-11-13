@@ -8,10 +8,35 @@
   "gameVersion": "26.3",
   "loader": "fabric",
   "loaderVersion": "0.20.1",
-  "modpackVersion": "0.0.3",
-  "publishedAt": "2026-11-13T19:37:40.580Z",
+  "modpackVersion": "0.0.4",
+  "publishedAt": "2026-11-13T20:52:35.558Z",
   "changelog": "",
   "changelogHistory": [
+    {
+      "version": "0.0.4",
+      "date": "13.11.2026",
+      "title": "Echtzeit Features",
+      "changelog": "",
+      "publishedAt": "2026-11-13T20:52:35.558Z",
+      "modChanges": {
+        "added": [
+          {
+            "name": "Real Seasons",
+            "version": "1.0.0"
+          },
+          {
+            "name": "Real Time",
+            "version": "1.0.0"
+          },
+          {
+            "name": "Real Weather",
+            "version": "1.0.0"
+          }
+        ],
+        "updated": [],
+        "removed": []
+      }
+    },
     {
       "version": "0.0.3",
       "date": "13.11.2026",
@@ -3817,6 +3842,57 @@
         "P7dR8mSH"
       ],
       "addedAt": 1794595366958
+    },
+    {
+      "slug": "custom-realseasons",
+      "name": "Real Seasons",
+      "iconUrl": null,
+      "side": "server",
+      "projectId": "custom:realseasons",
+      "versionId": "custom-ff09b6f32a10",
+      "versionNumber": "1.0.0",
+      "filename": "realseasons-1.0.0.jar",
+      "downloadUrl": "https://raw.githubusercontent.com/dPandl/Minecraft-Server-Mods/main/custom-mods/realseasons-1.0.0.jar",
+      "sha1": "ff09b6f32a101d3a6427766cf301e38e5e77549b",
+      "size": 8288,
+      "custom": true,
+      "autoDependency": false,
+      "dependencies": [],
+      "addedAt": 1794601210982
+    },
+    {
+      "slug": "custom-realtime",
+      "name": "Real Time",
+      "iconUrl": null,
+      "side": "server",
+      "projectId": "custom:realtime",
+      "versionId": "custom-b8909fb8d0e9",
+      "versionNumber": "1.0.0",
+      "filename": "realtime-1.0.0.jar",
+      "downloadUrl": "https://raw.githubusercontent.com/dPandl/Minecraft-Server-Mods/main/custom-mods/realtime-1.0.0.jar",
+      "sha1": "b8909fb8d0e95639971b370b76db9fb6183c4b18",
+      "size": 7719,
+      "custom": true,
+      "autoDependency": false,
+      "dependencies": [],
+      "addedAt": 1794601234827
+    },
+    {
+      "slug": "custom-realweather",
+      "name": "Real Weather",
+      "iconUrl": null,
+      "side": "server",
+      "projectId": "custom:realweather",
+      "versionId": "custom-fa853a7265a7",
+      "versionNumber": "1.0.0",
+      "filename": "realweather-1.0.0.jar",
+      "downloadUrl": "https://raw.githubusercontent.com/dPandl/Minecraft-Server-Mods/main/custom-mods/realweather-1.0.0.jar",
+      "sha1": "fa853a7265a791d74eccfc4e025b353701b0e27b",
+      "size": 10809,
+      "custom": true,
+      "autoDependency": false,
+      "dependencies": [],
+      "addedAt": 1794602047063
     }
   ],
   "resourcepacks": [],
