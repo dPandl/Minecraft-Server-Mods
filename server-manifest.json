@@ -1,14 +1,69 @@
 {
   "schemaVersion": 2,
   "serverName": "Dream Plaza",
+  "serverMapUrl": "http://gaming.by-dp.de:1038/",
+  "serverBanner": "server-banner.png",
+  "serverBannerVersion": "baef2dc0",
   "serverAddress": "gaming.by-dp.de",
   "gameVersion": "26.3",
   "loader": "fabric",
   "loaderVersion": "0.20.1",
-  "modpackVersion": "0.0.1",
-  "publishedAt": "2026-11-12T19:07:22.212Z",
+  "modpackVersion": "0.0.2",
+  "publishedAt": "2026-11-13T17:35:04.671Z",
   "changelog": "",
   "changelogHistory": [
+    {
+      "version": "0.0.2",
+      "date": "13.11.2026",
+      "title": "Server-Update v0.0.2",
+      "changelog": "",
+      "publishedAt": "2026-11-13T17:35:04.670Z",
+      "modChanges": {
+        "added": [
+          {
+            "name": "GUI Scaler",
+            "version": "26.3-1.6.0"
+          },
+          {
+            "name": "RenderScale",
+            "version": "2.0.0-beta.1-fabric+26.3"
+          },
+          {
+            "name": "Mob Explosion Griefing Gamerule",
+            "version": "2.1.2+26.1-26.3"
+          },
+          {
+            "name": "Complementary Shaders - Reimagined",
+            "version": "r5.9.3",
+            "kind": "Shader"
+          },
+          {
+            "name": "Complementary Shaders - Unbound",
+            "version": "r5.9.3",
+            "kind": "Shader"
+          },
+          {
+            "name": "Photon Shaders",
+            "version": "v1.4",
+            "kind": "Shader"
+          },
+          {
+            "name": "Bliss Shaders",
+            "version": "2.1.2",
+            "kind": "Shader"
+          }
+        ],
+        "updated": [],
+        "removed": [
+          {
+            "name": "No Creeper Grief"
+          },
+          {
+            "name": "No Enderman Grief"
+          }
+        ]
+      }
+    },
     {
       "version": "0.0.1",
       "date": "12.11.2026",
@@ -3321,38 +3376,6 @@
       "addedAt": 1794356186615
     },
     {
-      "slug": "no-creeper-grief",
-      "name": "No Creeper Grief",
-      "iconUrl": "https://cdn.modrinth.com/data/flHpkyzN/8a75c707ef40d993e12c92133951d9e56b228c9f_96.webp",
-      "side": "both",
-      "projectId": "flHpkyzN",
-      "versionId": "R3KcoyYM",
-      "versionNumber": "v1.3.0.0+mod",
-      "filename": "no-creeper-grief-v1.3.0.0.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/flHpkyzN/versions/R3KcoyYM/no-creeper-grief-v1.3.0.0.jar",
-      "sha1": "3f3af6738151f8c8f6605be1c2f56ca6e9d69fba",
-      "size": 222927,
-      "autoDependency": false,
-      "dependencies": [],
-      "addedAt": 1794356439465
-    },
-    {
-      "slug": "no-enderman-grief",
-      "name": "No Enderman Grief",
-      "iconUrl": "https://cdn.modrinth.com/data/ss02V75k/c4bca89b167577b44cfc450ac0c89fdbbdbc1dad_96.webp",
-      "side": "both",
-      "projectId": "ss02V75k",
-      "versionId": "AAobEAsF",
-      "versionNumber": "v3.1.1+mod",
-      "filename": "no-enderman-grief-v3.1.1.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/ss02V75k/versions/AAobEAsF/no-enderman-grief-v3.1.1.jar",
-      "sha1": "0637f78e1f13f47d83b292a6635c9ac9f07cd623",
-      "size": 89599,
-      "autoDependency": false,
-      "dependencies": [],
-      "addedAt": 1794356466608
-    },
-    {
       "slug": "explosive-enhancement",
       "name": "Explosive Enhancement",
       "iconUrl": "https://cdn.modrinth.com/data/OSQ8mw2r/88f44e9ed022061b1eb865996b2f98fe01937de6.png",
@@ -3635,6 +3658,62 @@
       "addedAt": 1794507026046
     },
     {
+      "slug": "auto-gui-scaler",
+      "name": "GUI Scaler",
+      "iconUrl": "https://cdn.modrinth.com/data/fM4mOw7u/3ac92559463d6af198daecd2edee205cdf5f53ef_96.webp",
+      "side": "client",
+      "projectId": "fM4mOw7u",
+      "versionId": "WAZcBQQA",
+      "versionNumber": "26.3-1.6.0",
+      "filename": "guiscaler-26.3-1.6.0-fabric.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/fM4mOw7u/versions/WAZcBQQA/guiscaler-26.3-1.6.0-fabric.jar",
+      "sha1": "7db7a53e7c232f7974f0f48a1dd2bdcbfe51b679",
+      "size": 435321,
+      "autoDependency": false,
+      "dependencies": [
+        "P7dR8mSH",
+        "9s6osm5g"
+      ],
+      "addedAt": 1794521064314
+    },
+    {
+      "slug": "renderscale",
+      "name": "RenderScale",
+      "iconUrl": "https://cdn.modrinth.com/data/Va8PJBFX/828facf0f1fb58a7f4ad28d74445e14b31107110_96.webp",
+      "side": "client",
+      "projectId": "Va8PJBFX",
+      "versionId": "5vAF6Ow0",
+      "versionNumber": "2.0.0-beta.1-fabric+26.3",
+      "filename": "renderscale-2.0.0-beta.1-fabric+26.3.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/Va8PJBFX/versions/5vAF6Ow0/renderscale-2.0.0-beta.1-fabric%2B26.3.jar",
+      "sha1": "1b8506f331d6bf2c1f9bd1e94c251bd718860c46",
+      "size": 156588,
+      "autoDependency": false,
+      "dependencies": [
+        "9s6osm5g",
+        "P7dR8mSH"
+      ],
+      "addedAt": 1794589733367
+    },
+    {
+      "slug": "mobexplosiongriefinggamerule",
+      "name": "Mob Explosion Griefing Gamerule",
+      "iconUrl": "https://cdn.modrinth.com/data/l9H9JPmo/4c05cece2a3b2cf4120fb1e965377f52b7fde576_96.webp",
+      "side": "server",
+      "projectId": "l9H9JPmo",
+      "versionId": "jmz3ZO8r",
+      "versionNumber": "2.1.2+26.1-26.3",
+      "filename": "mob_explosion_griefing-2.1.2+26.1-26.3.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/l9H9JPmo/versions/jmz3ZO8r/mob_explosion_griefing-2.1.2%2B26.1-26.3.jar",
+      "sha1": "7390ffe6dae07c69760c8d8abcab080ad29cb57d",
+      "size": 70991,
+      "autoDependency": false,
+      "dependencies": [
+        "P7dR8mSH"
+      ],
+      "addedAt": 1794590327931
+    },
+    {
       "slug": "glitchcore",
       "name": "GlitchCore",
       "iconUrl": "https://cdn.modrinth.com/data/s3dmwKy5/76dd9e7bc737a02b723730ab34f536ab43936980.png",
@@ -3648,13 +3727,67 @@
       "size": 339788,
       "autoDependency": true,
       "dependencies": [],
-      "addedAt": 1794507075959
+      "addedAt": 1794590722569
     }
   ],
   "resourcepacks": [],
-  "shaderpacks": [],
-  "defaultShader": null,
-  "serverBanner": "server-banner.png",
-  "serverBannerVersion": "baef2dc0",
-  "serverMapUrl": "http://gaming.by-dp.de:1038/"
+  "shaderpacks": [
+    {
+      "slug": "complementary-reimagined",
+      "name": "Complementary Shaders - Reimagined",
+      "iconUrl": "https://cdn.modrinth.com/data/HVnmMxH1/79cb7c8123bbc54945305b2ebad6b8881efdf5f8_96.webp",
+      "projectId": "HVnmMxH1",
+      "versionId": "Bqen1mJX",
+      "versionNumber": "r5.9.3",
+      "filename": "ComplementaryReimagined_r5.9.3.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
+      "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6",
+      "size": 553397,
+      "active": true,
+      "addedAt": 1794589219469
+    },
+    {
+      "slug": "complementary-unbound",
+      "name": "Complementary Shaders - Unbound",
+      "iconUrl": "https://cdn.modrinth.com/data/R6NEzAwj/c85ce4049aac76360d2cd24fd9a7003de01ef312_96.webp",
+      "projectId": "R6NEzAwj",
+      "versionId": "B1kyfoUZ",
+      "versionNumber": "r5.9.3",
+      "filename": "ComplementaryUnbound_r5.9.3.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip",
+      "sha1": "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
+      "size": 553400,
+      "active": false,
+      "addedAt": 1794589220604
+    },
+    {
+      "slug": "photon-shader",
+      "name": "Photon Shaders",
+      "iconUrl": "https://cdn.modrinth.com/data/lLqFfGNs/39cb5f12e7dcc68d6cb666f225fcb2b801dd70fb_96.webp",
+      "projectId": "lLqFfGNs",
+      "versionId": "BnGklH5y",
+      "versionNumber": "v1.4",
+      "filename": "photon_v1.4.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/lLqFfGNs/versions/BnGklH5y/photon_v1.4.zip",
+      "sha1": "96c7730f5891a42e39bbf1f0f5a98fa99628a7fe",
+      "size": 3857333,
+      "active": false,
+      "addedAt": 1794589222968
+    },
+    {
+      "slug": "bliss-shader",
+      "name": "Bliss Shaders",
+      "iconUrl": "https://cdn.modrinth.com/data/ZvMtQlho/90145c971ea24387775108fc86c89bed9bd2c8f1_96.webp",
+      "projectId": "ZvMtQlho",
+      "versionId": "kC2Y8q1P",
+      "versionNumber": "2.1.2",
+      "filename": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/ZvMtQlho/versions/kC2Y8q1P/Bliss_v2.1.2_%28Chocapic13_Shaders_edit%29.zip",
+      "sha1": "ded6c8a98305f8aff90ef781e7585b33b8452cfd",
+      "size": 1791406,
+      "active": false,
+      "addedAt": 1794589226293
+    }
+  ],
+  "defaultShader": "ComplementaryReimagined_r5.9.3.zip"
 }
