@@ -10,19 +10,20 @@
   "loaderVersion": "0.20.1",
   "modpackVersion": "0.0.5",
   "publishedAt": "2026-11-13T22:17:29.384Z",
-  "changelog": "",
+  "changelog": "Es wurden sämtliche configs für den Erststart vorbereitet.",
   "changelogHistory": [
     {
       "version": "0.0.5",
       "date": "13.11.2026",
       "title": "Mod Konfigurationen",
-      "changelog": "",
+      "changelog": "Es wurden sämtliche configs für den Erststart vorbereitet.",
       "publishedAt": "2026-11-13T22:17:29.361Z",
       "modChanges": {
         "added": [],
         "updated": [],
         "removed": []
-      }
+      },
+      "updatedAt": "2026-11-13T22:43:18.993Z"
     },
     {
       "version": "0.0.4",
