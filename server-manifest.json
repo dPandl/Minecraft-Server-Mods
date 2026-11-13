@@ -8,10 +8,78 @@
   "gameVersion": "26.3",
   "loader": "fabric",
   "loaderVersion": "0.20.1",
-  "modpackVersion": "0.0.2",
-  "publishedAt": "2026-11-13T17:35:04.671Z",
+  "modpackVersion": "0.0.3",
+  "publishedAt": "2026-11-13T19:37:40.580Z",
   "changelog": "",
   "changelogHistory": [
+    {
+      "version": "0.0.3",
+      "date": "13.11.2026",
+      "title": "Server-Update v0.0.3",
+      "changelog": "",
+      "publishedAt": "2026-11-13T19:37:40.579Z",
+      "modChanges": {
+        "added": [
+          {
+            "name": "Cosmetica",
+            "version": "2.0.2-26.3-fabric"
+          }
+        ],
+        "updated": [
+          {
+            "name": "Fabric API",
+            "fromVersion": "0.165.2+26.3",
+            "toVersion": "0.166.2+26.3"
+          },
+          {
+            "name": "Mod Menu",
+            "fromVersion": "21.0.0",
+            "toVersion": "21.0.1"
+          },
+          {
+            "name": "Music Disc Maker",
+            "fromVersion": "3.1.3+fabric-26.3",
+            "toVersion": "3.1.4+fabric-26.3"
+          },
+          {
+            "name": "Entity Culling",
+            "fromVersion": "1.11.3",
+            "toVersion": "1.12.1"
+          },
+          {
+            "name": "JourneyMap",
+            "fromVersion": "26.3-6.0.9+fabric",
+            "toVersion": "26.3-6.0.10+fabric"
+          },
+          {
+            "name": "RightClickHarvest",
+            "fromVersion": "4.6.2+26.3.x",
+            "toVersion": "4.7.0+26.3.x"
+          },
+          {
+            "name": "JamLib",
+            "fromVersion": "2.3.1+26.3.x",
+            "toVersion": "2.3.2+26.3.x"
+          },
+          {
+            "name": "Heart Crystals",
+            "fromVersion": "1.0.1-26.3",
+            "toVersion": "1.0.4-26.3"
+          },
+          {
+            "name": "Puzzles Lib",
+            "fromVersion": "26.3.17",
+            "toVersion": "26.3.18"
+          },
+          {
+            "name": "VeinMiner",
+            "fromVersion": "2.13.0",
+            "toVersion": "2.13.1"
+          }
+        ],
+        "removed": []
+      }
+    },
     {
       "version": "0.0.2",
       "date": "13.11.2026",
@@ -755,16 +823,18 @@
     {
       "slug": "fabric-api",
       "name": "Fabric API",
+      "iconUrl": "https://cdn.modrinth.com/data/P7dR8mSH/icon.png",
       "side": "both",
       "projectId": "P7dR8mSH",
-      "versionId": "nJlcvFfj",
-      "versionNumber": "0.165.2+26.3",
-      "filename": "fabric-api-0.165.2+26.3.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/P7dR8mSH/versions/nJlcvFfj/fabric-api-0.165.2%2B26.3.jar",
-      "sha1": "2e364989e3f6efb97e1dbd12d80d835c7ab8c26c",
-      "size": 1779306,
+      "versionId": "Zns5SSRA",
+      "versionNumber": "0.166.2+26.3",
+      "filename": "fabric-api-0.166.2+26.3.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Zns5SSRA/fabric-api-0.166.2%2B26.3.jar",
+      "sha1": "65636253571429971f25f5619692e6c1a6362028",
+      "size": 1797523,
       "autoDependency": false,
-      "dependencies": []
+      "dependencies": [],
+      "addedAt": 1794595425212
     },
     {
       "slug": "sodium",
@@ -827,19 +897,21 @@
     {
       "slug": "modmenu",
       "name": "Mod Menu",
+      "iconUrl": "https://cdn.modrinth.com/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png",
       "side": "client",
       "projectId": "mOgUt4GM",
-      "versionId": "kyy7dbrZ",
-      "versionNumber": "21.0.0",
-      "filename": "modmenu-21.0.0.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar",
-      "sha1": "66ec40f1cd0c037ddca2b5fc6b4b976d479c18e8",
-      "size": 856779,
+      "versionId": "xckkBHD5",
+      "versionNumber": "21.0.1",
+      "filename": "modmenu-21.0.1.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/mOgUt4GM/versions/xckkBHD5/modmenu-21.0.1.jar",
+      "sha1": "884ab621735264187ccbfc87017cf55bb54d47ee",
+      "size": 862761,
       "autoDependency": false,
       "dependencies": [
-        "eXts2L7r",
-        "P7dR8mSH"
-      ]
+        "P7dR8mSH",
+        "eXts2L7r"
+      ],
+      "addedAt": 1794595423401
     },
     {
       "slug": "placeholder-api",
@@ -1248,16 +1320,15 @@
       "iconUrl": "https://cdn.modrinth.com/data/mqnazM0E/bc48b5f351268127d5ed87a16f74fcaeae11c86d_96.webp",
       "side": "both",
       "projectId": "mqnazM0E",
-      "versionId": "tYLFaTAy",
-      "versionNumber": "3.1.3+fabric-26.3",
-      "filename": "music_disc_maker-3.1.3+fabric-26.3.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/mqnazM0E/versions/tYLFaTAy/music_disc_maker-3.1.3%2Bfabric-26.3.jar",
-      "sha1": "2533007dae63e02ace12693d87e2ec91dd51acac",
-      "size": 35182531,
+      "versionId": "EFcYZ6GU",
+      "versionNumber": "3.1.4+fabric-26.3",
+      "filename": "music_disc_maker-3.1.4+fabric-26.3.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/mqnazM0E/versions/EFcYZ6GU/music_disc_maker-3.1.4%2Bfabric-26.3.jar",
+      "sha1": "03d24f4f30876b049bf5d86c25717c4b12b2469c",
+      "size": 35186305,
       "autoDependency": false,
       "dependencies": [],
-      "addedAt": 1794340085227,
-      "disabled": false
+      "addedAt": 1794595421614
     },
     {
       "slug": "pw_splinecart",
@@ -1299,17 +1370,17 @@
       "iconUrl": "https://cdn.modrinth.com/data/NNAgCjsB/7873452d6cede4daed12da3d7d8c193ab88b4fd6_96.webp",
       "side": "client",
       "projectId": "NNAgCjsB",
-      "versionId": "X1g3VhTx",
-      "versionNumber": "1.11.3",
-      "filename": "entityculling-fabric-1.11.3-mc26.3.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/NNAgCjsB/versions/X1g3VhTx/entityculling-fabric-1.11.3-mc26.3.jar",
-      "sha1": "45f47f7a067f5efd733a32767dc3d1d770678b2a",
-      "size": 1508547,
+      "versionId": "UWpkLRV5",
+      "versionNumber": "1.12.1",
+      "filename": "entityculling-fabric-1.12.1-mc26.3.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/NNAgCjsB/versions/UWpkLRV5/entityculling-fabric-1.12.1-mc26.3.jar",
+      "sha1": "de9005580599906b55ff241bdf8cb27da999939a",
+      "size": 1522184,
       "autoDependency": false,
       "dependencies": [
         "P7dR8mSH"
       ],
-      "addedAt": 1794342934863
+      "addedAt": 1794595419695
     },
     {
       "slug": "ferrite-core",
@@ -1888,17 +1959,17 @@
       "iconUrl": "https://cdn.modrinth.com/data/lfHFW1mp/a1c571a21a88f6fa59eab67829f216f65ab393ee_96.webp",
       "side": "both",
       "projectId": "lfHFW1mp",
-      "versionId": "FTYEzxSQ",
-      "versionNumber": "26.3-6.0.9+fabric",
-      "filename": "journeymap-fabric-26.3-6.0.9.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/lfHFW1mp/versions/FTYEzxSQ/journeymap-fabric-26.3-6.0.9.jar",
-      "sha1": "0836d3c81b2bd14fb37e4e0b64aeb33a165e79eb",
-      "size": 4382383,
+      "versionId": "2zmj8ela",
+      "versionNumber": "26.3-6.0.10+fabric",
+      "filename": "journeymap-fabric-26.3-6.0.10.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/lfHFW1mp/versions/2zmj8ela/journeymap-fabric-26.3-6.0.10.jar",
+      "sha1": "8fb9d3039e0acca2e1d5f5ced71ab5aaac22fdf8",
+      "size": 4384661,
       "autoDependency": false,
       "dependencies": [
         "P7dR8mSH"
       ],
-      "addedAt": 1794348158010
+      "addedAt": 1794595418158
     },
     {
       "slug": "bluemap",
@@ -2428,18 +2499,18 @@
       "iconUrl": "https://cdn.modrinth.com/data/Cnejf5xM/b6e535989217836c2adc49b06f4b3c8f429afda3_96.webp",
       "side": "server",
       "projectId": "Cnejf5xM",
-      "versionId": "MTui9kST",
-      "versionNumber": "4.6.2+26.3.x",
-      "filename": "rightclickharvest-fabric-4.6.2+26.3.x.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/Cnejf5xM/versions/MTui9kST/rightclickharvest-fabric-4.6.2%2B26.3.x.jar",
-      "sha1": "980234046f202dc3890c499f1c7378714c3ff511",
-      "size": 280022,
+      "versionId": "NDyAQPGm",
+      "versionNumber": "4.7.0+26.3.x",
+      "filename": "rightclickharvest-fabric-4.7.0+26.3.x.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/Cnejf5xM/versions/NDyAQPGm/rightclickharvest-fabric-4.7.0%2B26.3.x.jar",
+      "sha1": "502905ff0fee8d0f8fe0ef3dd2bad5c34c1d594a",
+      "size": 280698,
       "autoDependency": false,
       "dependencies": [
-        "IYY9Siz8",
-        "P7dR8mSH"
+        "P7dR8mSH",
+        "IYY9Siz8"
       ],
-      "addedAt": 1794349297860
+      "addedAt": 1794595416347
     },
     {
       "slug": "jamlib",
@@ -2447,17 +2518,17 @@
       "iconUrl": "https://cdn.modrinth.com/data/IYY9Siz8/7585f4d35b18467c2d0d9c496e3b7cd4919c413a_96.webp",
       "side": "both",
       "projectId": "IYY9Siz8",
-      "versionId": "EbhilCj8",
-      "versionNumber": "2.3.1+26.3.x",
-      "filename": "jamlib-fabric-2.3.1+26.3.x.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/IYY9Siz8/versions/EbhilCj8/jamlib-fabric-2.3.1%2B26.3.x.jar",
-      "sha1": "e618db246e40fb685b237a613b58c68481f138f3",
-      "size": 265050,
+      "versionId": "G6vke27r",
+      "versionNumber": "2.3.2+26.3.x",
+      "filename": "jamlib-fabric-2.3.2+26.3.x.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/IYY9Siz8/versions/G6vke27r/jamlib-fabric-2.3.2%2B26.3.x.jar",
+      "sha1": "ba0c589860e0a4acab9bab4f9881f68971458ae6",
+      "size": 265519,
       "autoDependency": true,
       "dependencies": [
         "P7dR8mSH"
       ],
-      "addedAt": 1794349298242
+      "addedAt": 1794595414254
     },
     {
       "slug": "heart-crystals",
@@ -2465,17 +2536,17 @@
       "iconUrl": "https://cdn.modrinth.com/data/L49lo4m9/b8989241efc106ae51ba24dcc4bfd0fe9d3abda3.png",
       "side": "both",
       "projectId": "L49lo4m9",
-      "versionId": "xMUYZ0yV",
-      "versionNumber": "1.0.1-26.3",
+      "versionId": "MFZU3coM",
+      "versionNumber": "1.0.4-26.3",
       "filename": "HeartCrystals.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/L49lo4m9/versions/xMUYZ0yV/HeartCrystals.jar",
-      "sha1": "161034848cdacec56a8293b62f2f5d7e680847e5",
-      "size": 22665,
+      "downloadUrl": "https://cdn.modrinth.com/data/L49lo4m9/versions/MFZU3coM/HeartCrystals.jar",
+      "sha1": "d86544a6c525cd7d33967b8f2d3dd26874ad473c",
+      "size": 22791,
       "autoDependency": false,
       "dependencies": [
         "P7dR8mSH"
       ],
-      "addedAt": 1794349771933
+      "addedAt": 1794595412204
     },
     {
       "slug": "reliable-gliders",
@@ -2827,18 +2898,18 @@
       "iconUrl": "https://cdn.modrinth.com/data/QAGBst4M/c78216c61f65b6ce82593e4e92e9c358402bb524_96.webp",
       "side": "both",
       "projectId": "QAGBst4M",
-      "versionId": "b1UA02v8",
-      "versionNumber": "26.3.17",
-      "filename": "puzzleslib-v26.3.17-mc26.3.x+fabric.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/QAGBst4M/versions/b1UA02v8/puzzleslib-v26.3.17-mc26.3.x%2Bfabric.jar",
-      "sha1": "dcdade799c41a96019723b7a8ae9becc1d256d22",
-      "size": 1094042,
+      "versionId": "TZ0hp2h3",
+      "versionNumber": "26.3.18",
+      "filename": "puzzleslib-v26.3.18-mc26.3.x+fabric.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/QAGBst4M/versions/TZ0hp2h3/puzzleslib-v26.3.18-mc26.3.x%2Bfabric.jar",
+      "sha1": "3819387e2da9c584b5e34df6c31d903b3deb21ba",
+      "size": 1095082,
       "autoDependency": true,
       "dependencies": [
-        "P7dR8mSH",
-        "ohNO6lps"
+        "ohNO6lps",
+        "P7dR8mSH"
       ],
-      "addedAt": 1794350664246
+      "addedAt": 1794595409859
     },
     {
       "slug": "forge-config-api-port",
@@ -3044,18 +3115,18 @@
       "iconUrl": "https://cdn.modrinth.com/data/OhduvhIc/5ea1f538e66ee4d4e5e571ad952cba0e06e0bd5c.png",
       "side": "both",
       "projectId": "OhduvhIc",
-      "versionId": "QMYktnGo",
-      "versionNumber": "2.13.0",
-      "filename": "veinminer-fabric-2.13.0.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/OhduvhIc/versions/QMYktnGo/veinminer-fabric-2.13.0.jar",
-      "sha1": "68c4989fbc568125bc5c570b1245c8d7161a9122",
-      "size": 671493,
+      "versionId": "jJHGRHpE",
+      "versionNumber": "2.13.1",
+      "filename": "veinminer-fabric-2.13.1.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/OhduvhIc/versions/jJHGRHpE/veinminer-fabric-2.13.1.jar",
+      "sha1": "9b4c7c01ba570cc65763a8352936613e73f456ac",
+      "size": 671504,
       "autoDependency": false,
       "dependencies": [
-        "P7dR8mSH",
-        "Ha28R6CL"
+        "Ha28R6CL",
+        "P7dR8mSH"
       ],
-      "addedAt": 1794351189752
+      "addedAt": 1794595407074
     },
     {
       "slug": "endrem",
@@ -3714,6 +3785,22 @@
       "addedAt": 1794590327931
     },
     {
+      "slug": "cosmetica",
+      "name": "Cosmetica",
+      "iconUrl": "https://cdn.modrinth.com/data/s9hF9QGp/e954c4883e72f95d8e799d167171cde74b059b51_96.webp",
+      "side": "client",
+      "projectId": "s9hF9QGp",
+      "versionId": "pmgR7KLd",
+      "versionNumber": "2.0.2-26.3-fabric",
+      "filename": "cosmetica-fabric-2.0.2-26.3.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/s9hF9QGp/versions/pmgR7KLd/cosmetica-fabric-2.0.2-26.3.jar",
+      "sha1": "20139278ac0faf9903bf6c8e53a5ba2b29224edd",
+      "size": 6031521,
+      "autoDependency": false,
+      "dependencies": [],
+      "addedAt": 1794592073674
+    },
+    {
       "slug": "glitchcore",
       "name": "GlitchCore",
       "iconUrl": "https://cdn.modrinth.com/data/s3dmwKy5/76dd9e7bc737a02b723730ab34f536ab43936980.png",
@@ -3725,9 +3812,11 @@
       "downloadUrl": "https://cdn.modrinth.com/data/s3dmwKy5/versions/kfFeDnrp/GlitchCore-fabric-26.3-26.3.0.0.5.jar",
       "sha1": "33efbdb5c192e8af21f6e1ee3c2799682bd4adf8",
       "size": 339788,
-      "autoDependency": true,
-      "dependencies": [],
-      "addedAt": 1794590722569
+      "autoDependency": false,
+      "dependencies": [
+        "P7dR8mSH"
+      ],
+      "addedAt": 1794595366958
     }
   ],
   "resourcepacks": [],
