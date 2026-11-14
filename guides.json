@@ -1,1 +1,905 @@
-[]
+[
+  {
+    "id": "simple-voice-chat",
+    "modSlug": "simple-voice-chat",
+    "title": "Simple Voice Chat",
+    "iconUrl": "https://cdn.modrinth.com/data/9eGKb6K1/icon.png",
+    "summary": "Nähe-Sprachchat im Spiel, Gruppen-Audio und Audio-Einstellungen",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "svc-chap-0",
+        "title": "1. Einführung & Was macht Simple Voice Chat?",
+        "content": "## Was ist Simple Voice Chat?\n\n**Simple Voice Chat** bringt einen vollwertigen, dreidimensionalen Sprachchat (Proximity Chat) direkt in Minecraft. Anstatt externe Programme wie Discord nutzen zu müssen, kannst du dich direkt im Spiel ganz natürlich mit Mitspielern unterhalten.\n\n### Warum das genial ist:\n- **Räumlicher Klang (3D Audio):** Du hörst genau, aus welcher Himmelsrichtung ein Mitspieler spricht. Steht jemand links hinter dir, hörst du ihn auf deinem linken Kopfhörer.\n- **Entfernungsabhängige Lautstärke:** Je näher du einem Spieler kommst, desto lauter wird er; entfernst du dich, wird seine Stimme leiser, bis sie schließlich ganz verhallt.\n- **Immersive Atmosphäre:** In Kombination mit unserer Akustik-Mod verhallt deine Stimme in tiefen Höhlen realistisch und wird durch dicke Burgmauern abgedämpft.\n- **Keine Server-Einladungslinks nötig:** Du bist sofort mit jedem im Gespräch, der dir in der Spielwelt über den Weg läuft!\n",
+        "images": []
+      },
+      {
+        "id": "svc-chap-1",
+        "title": "2. Einrichtung & Tastenkürzel",
+        "content": "## Audio-Setup & Wichtige Tasten\n\nSobald du auf dem Server bist, solltest du kurz dein Mikrofon überprüfen:\n\n### Deine Tastenbelegung:\n- **`V`** – **Hauptmenü öffnen:** Hier gelangst du zu allen Einstellungen, Lautstärkereglern und Gruppen.\n- **`M`** – **Mikrofon stummschalten (Mute):** Schaltet dein Mikrofon sofort stumm oder wieder frei.\n- **Sprachaktivierung:** Ist standardmäßig aktiv. Sobald du sprichst, überträgt das Spiel deine Stimme automatisch.\n\n> **Tipp:** Drücke **`V`** und wähle **Einstellungen**, um dein gewünschtes Headset/Mikrofon einzustellen, die Empfindlichkeit der Spracherkennung zu kalibrieren und dich mit dem Mikrofontest selbst probezuhören. Wer lieber eine Sprechtaste nutzt, kann dort auch auf Push-to-Talk umstellen.\n",
+        "images": []
+      },
+      {
+        "id": "svc-chap-2",
+        "title": "3. Gruppen-Chats über Distanz",
+        "content": "## Gruppen für gemeinsame Abenteuer\n\nMöchtest du mit deinen Freunden in normaler Lautstärke sprechen, egal wie viele tausend Blöcke ihr voneinander entfernt seid oder ob jemand im Nether und der andere in der Oberwelt baut? Dafür gibt es Gruppen!\n\n### So erstellst du eine Gruppe:\n1. Drücke die Taste **`V`** und klicke auf **Gruppe erstellen**.\n2. Vergib einen Namen und optional ein Passwort.\n3. Wähle den Gruppentyp:\n   - **Isoliert:** Ihr hört euch nur gegenseitig in der Gruppe.\n   - **Offen:** Ihr hört eure Gruppenfreunde und gleichzeitig Mitspieler, die in der Spielwelt an euch vorbeilaufen.\n\nFreunde können deiner Gruppe einfach über das Menü (`V`) beitreten.\n",
+        "images": []
+      },
+      {
+        "id": "svc-chap-3",
+        "title": "4. Raumklang & Akustik",
+        "content": "## Realistische Schallphysik (Sound Physics Remastered)\n\nAuf unserem Server arbeitet Simple Voice Chat Hand in Hand mit *Sound Physics Remastered*:\n- **Hall in Höhlen:** Sprichst du in einer riesigen Tropfsteinhöhle, erzeugt deine Stimme einen beeindruckenden Hall.\n- **Dämpfung:** Dicke Steinwände, Holztüren und Erdreich dämpfen Geräusche realistisch ab.\n- **Unter Wasser:** Tauchst du unter, klingt alles dumpf und verzerrt.\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "automobility-unofficial-port",
+    "modSlug": "automobility-unofficial-port",
+    "title": "Automobility & Fahrphysik",
+    "iconUrl": "https://cdn.modrinth.com/data/B6d5S1wQ/e72024bf3b9eea32b52a8181362b165e936752e0_96.webp",
+    "summary": "Fahrzeuge bauen, Motoren, Beleuchtung, Tempomat und Driften",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "auto-chap-0",
+        "title": "1. Einführung & Was ist Automobility?",
+        "content": "## Was macht Automobility?\n\n**Automobility** bringt echte, voll funktionsfähige Kraftfahrzeuge in deine Minecraft-Welt! Vergiss langsame Pferde oder starre Lorenstrecken: Mit dieser Mod baust du deine eigenen Autos, Karts, Traktoren und Transporter komplett modular zusammen.\n\n### Was dir die Mod bietet:\n- **Modularer Fahrzeugbau:** Du kombinierst Rahmen, Motoren und Reifen völlig frei nach deinen Wünschen.\n- **Echte Fahrphysik:** Federung, Gewichtsverteilung, Reifengrip auf verschiedenen Untergründen und eine rasante Drift-Mechanik.\n- **Nützlicher Alltagseinsatz:** Du kannst Kisten auf die Ladefläche montieren, um wertvolle Beute von Minenausflügen nach Hause zu transportieren.\n- **Vollausstattung:** Scheinwerfer, Fernlicht, Blinker, Warnblinkanlage und sogar ein Tempomat für lange Autobahnfahrten!\n",
+        "images": []
+      },
+      {
+        "id": "auto-chap-1",
+        "title": "2. Der Auto-Mechaniker-Tisch",
+        "content": "## Das Auto zusammenbauen\n\nUm ein Auto zu bauen, benötigst du den **Auto-Mechaniker-Tisch (Auto Mechanic Table)**.\n\n### Die drei Pflichtteile für jedes Fahrzeug:\n1. **Rahmen (Frame):** Bestimmt die Karosserie, die Sitzplätze und die Optik (z. B. Standard-Auto, Flitzer, Geländewagen, Traktor).\n2. **Räder (Wheels):** 4 Räder. Du kannst zwischen Standardreifen, geländegängigen Offroad-Reifen oder schnellen Rennreifen wählen.\n3. **Motor (Engine):** Die Kraftquelle deines Autos (von einfachen Eisenmotoren bis hin zu Hochleistungsmotoren).\n\nÖffne den Mechaniker-Tisch, lege Rahmen, Räder und Motor hinein und nimm dein fahrbereites Auto heraus!\n",
+        "images": []
+      },
+      {
+        "id": "auto-chap-2",
+        "title": "3. Steuerung & Tastaturbelegung",
+        "content": "## Exakte Tastenbelegung im Fahrzeug\n\nPlatziere dein Auto auf dem Boden und steige mit **Rechtsklick** ein:\n\n### Fahren & Lenken:\n- **`W`** – Gas geben (vorwärts beschleunigen).\n- **`S`** – Bremsen und Rückwärtsgang.\n- **`A` / `D`** – Lenken.\n- **`Leertaste`** – Handbremse & **Driften** (in Kurven gedrückt halten, um in den Drift zu gehen und anschließend einen Geschwindigkeitsboost zu erhalten).\n- **`Shift` (Schleichen)** – Aussteigen.\n\n### Cockpit, Beleuchtung & Tempomat:\n- **`R`** – Motor starten / ausschalten.\n- **`H`** – Scheinwerfer (Abblendlicht) an/aus.\n- **`K`** – Fernlicht an/aus.\n- **`Pfeil Links` / `Pfeil Rechts`** – Blinker links / rechts.\n- **`Pfeil Runter`** – Warnblinkanlage.\n- **`C`** – **Tempomat (Cruise Control)** aktivieren oder deaktivieren.\n- **`Bild Auf` / `Bild Ab`** – Tempomat-Zielgeschwindigkeit in 5 km/h-Schritten anpassen.\n- **`U`** – Fahrzeug-Einstellungen & Cockpit-Menü öffnen.\n- **`X`** – Klappscheinwerfer zwinkern lassen (beim MX5-Modell).\n",
+        "images": []
+      },
+      {
+        "id": "auto-chap-3",
+        "title": "4. Ladefläche, Wartung & Straßen",
+        "content": "## Kisten montieren & Auto einpacken\n\n- **Kofferraum nachrüsten:** Klicke mit einer normalen Truhe in der Hand per Rechtsklick auf das Heck deines Autos, um Stauraum für Items anzubringen.\n- **Auto wieder einstecken:** Schlage mit einer **Brechstange (Crowbar)** auf das Fahrzeug, um es unbeschadet wieder als Item in dein Inventar aufzunehmen.\n- **Straßen-Bonus:** Auf den Straßen und Asphaltblöcken aus *Saro's Road Blocks* fahren Autos mit maximaler Höchstgeschwindigkeit und bestem Grip!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "better-archeology",
+    "modSlug": "better-archeology",
+    "title": "Better Archeology",
+    "iconUrl": "https://cdn.modrinth.com/data/zCh7omyG/6e077f9529b6789aed7696655d8fd84758e1b54e_96.webp",
+    "summary": "Pinsel-Geschwindigkeiten, Totem-Kräfte und Monster-Schutz durch Fossilien",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "ba-chap-0",
+        "title": "1. Einführung & Was ist Better Archeology?",
+        "content": "## Was macht Better Archeology?\n\nDas offizielle Archäologie-System von Minecraft bietet zwar Pinsel und Tonscherben, lässt aber viele Möglichkeiten ungenutzt.\n\n**Better Archeology** baut das Ausgrabungs-Gameplay zu einem echten Abenteuer aus!\n\n### Die neuen Highlights:\n- **Neue Ausgrabungsstätten:** Katakomben, antike Gruften, Tempelruinen und versunkene Monumente voller Geheimnisse.\n- **Stärkere Werkzeuge:** Schnellere Pinsel aus Eisen, Diamant und Netherite.\n- **Fossilien restaurieren:** Setze versteinerte Knochenreste am Restaurierungstisch zu vollständigen Skeletten zusammen, die als Trophäen deine Basis vor Monstern schützen!\n- **Magische Totems:** Entdecke uralte Totems mit mächtigen Fähigkeiten wie Dash-Sprüngen oder beschleunigtem Pflanzenwachstum.\n",
+        "images": []
+      },
+      {
+        "id": "ba-chap-1",
+        "title": "2. Pinsel-Geschwindigkeiten & Ausgrabungen",
+        "content": "## Bürsten im Vergleich\n\nBürste verdächtigen Sand, Kies oder Schlamm vorsichtig mit Rechtsklick ab:\n\n### Pinsel-Geschwindigkeiten (Server-Konfiguration):\n- **Kupferpinsel (Vanilla):** Standard-Geschwindigkeit (10 Ticks).\n- **Eisenpinsel:** ~30 % schneller (7 Ticks) und deutlich haltbarer.\n- **Diamantpinsel:** Doppelt so schnell wie Vanilla (5 Ticks).\n- **Netheritepinsel:** Mehr als dreimal so schnell (3 Ticks) für rasanteste Ausgrabungen!\n",
+        "images": []
+      },
+      {
+        "id": "ba-chap-2",
+        "title": "3. Magische Totems & Artefakte",
+        "content": "## Uralte Totems nutzen\n\nAusgrabungen bringen mächtige Totems zutage:\n- **Radiance Totem:** Fügt feindlichen Monstern im Umkreis von 10 Blöcken periodisch Schaden zu.\n- **Torrent Totem:** Verleiht dir einen gewaltigen Dash-Sprungschub in Blickrichtung (auch steil nach oben)!\n- **Growth Totem:** Lässt umliegende Feldfrüchte im Umkreis von 5 Blöcken automatisch und viel schneller heranreifen.\n",
+        "images": []
+      },
+      {
+        "id": "ba-chap-3",
+        "title": "4. Urzeit-Fossilien & Monster-Abwehr",
+        "content": "## Skelette als Wächter deiner Basis\n\n1. Grabe Fossilienfragmente aus und setze sie am **Restaurierungstisch (Archeology Table)** zu vollständigen Skeletten zusammen.\n2. **Schutzeffekt:** Aufgestellte Fossilien (Wolf, Ozelot, Guardian) verscheuchen feindliche Monster in einem Umkreis von **20 Blöcken** dauerhaft von deinem Grundstück!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "bluemap-sign-markers",
+    "modSlug": "bluemap-sign-markers",
+    "title": "BlueMap & Webkarten-Marker",
+    "iconUrl": "https://cdn.modrinth.com/data/i5ZtmNIW/ef68e9ff2a3813a04541a96011f6b7004fb8f496_96.webp",
+    "summary": "3D-Webkarte im Browser und eigene Schilder-Marker mit [map] oder [mark]",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "bm-chap-0",
+        "title": "1. Einführung & Was ist BlueMap?",
+        "content": "## Was macht BlueMap?\n\nMöchtest du deine Bauwerke, Städte oder die gesamte Spielwelt außerhalb von Minecraft in voller Pracht betrachten?\n\n**BlueMap** rendert die Spielwelt als interaktives, hochdetailliertes **3D-Modell direkt in deinem Webbrowser**!\n\n### Was die Webkarte kann:\n- **Echte 3D-Ansicht:** Du kannst die Kamera frei um Berge und Gebäude drehen, hineinzoomen und sogar ins Innere von Häusern schauen.\n- **Live-Positionen:** Sieh in Echtzeit, wo sich deine Mitspieler gerade aufhalten.\n- **Eigene Marker:** Mit *BlueMap Sign Markers* kannst du deine eigene Basis mit einem einfachen Schild als Marker auf der Webkarte verewigen!\n",
+        "images": []
+      },
+      {
+        "id": "bm-chap-1",
+        "title": "2. Navigation auf der 3D-Karte",
+        "content": "## Funktionen im Browser\n\n- Öffne die BlueMap-Adresse unseres Servers im Browser.\n- Steuere mit der linken Maustaste die Drehung und mit der rechten Maustaste das Verschieben der Kamera.\n- Mit dem Mausrad zoomst du stufenlos heran.\n- Über das Seitenmenü kannst du zwischen Tag- und Nachtansicht sowie zwischen Overworld, Nether und End umschalten.\n",
+        "images": []
+      },
+      {
+        "id": "bm-chap-2",
+        "title": "3. Eigene Schilder-Marker anlegen",
+        "content": "## Punkte auf der Webkarte eintragen\n\n1. Platziere ein normales Holzschild an deinem Wunschort.\n2. Schreibe in die erste Zeile: **`[map]`** oder **`[mark]`**.\n3. Schreibe in die zweite und dritte Zeile den Namen (z. B. \"Hauptbasis\" oder \"Pascal's Schmiede\").\n4. Sobald du das Schild schließt, erscheint an dieser Stelle ein klickbarer Marker auf der BlueMap-Webkarte für alle Spieler!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "gameplay-anpassungen",
+    "modSlug": "gameplay-anpassungen",
+    "title": "Gameplay Anpassungen",
+    "iconUrl": "",
+    "summary": "Alle nützlichen Quality-of-Life-Tweaks und Spielmechanik-Anpassungen unseres Servers",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "chap-gp-0",
+        "title": "1. Einführung & Was sind die Gameplay-Anpassungen?",
+        "content": "## Was machen die Gameplay-Anpassungen?\n\nDieses Kapitel fasst alle kleinen, feinen Quality-of-Life-Verbesserungen unseres Modpacks zusammen. Sie verändern keine riesigen Systeme wie eine Technik- oder Magie-Mod, machen den Minecraft-Alltag aber um ein Vielfaches angenehmer, logischer und intuitiver!\n\n### Die Idee dahinter:\n- **Weniger Frust:** Keine zerstörten Ackerböden mehr durch Trampeln, keine verlorenen Gegenstände im Void und sichere Grabsteine mit EP-Schutz beim Tod.\n- **Mehr Komfort:** Doppeltüren öffnen synchron, Ernten mit einem einzigen Rechtsklick, Ambosse mit Eisenbarren reparieren und XP in Glasflaschen abfüllen.\n- **Stimmungsvolle Details:** Heilung an brennenden Lagerfeuern, Bilder per Klick durchwechseln und Mobs mit Schneebällen einfrieren.\n\nBlättere einfach durch die folgenden Abschnitte, um jeden einzelnen Tweak im Detail kennenzulernen!\n",
+        "images": []
+      },
+      {
+        "id": "chap-gp-1",
+        "title": "Anvil Restoration",
+        "content": "## Ambosse per Rechtsklick reparieren\n\nEin beschädigter oder rissiger Amboss muss nicht mehr entsorgt werden!\n\n- Nimm einfach einen normalen **Eisenbarren** in die Haupthand.\n- Rechtsklicke auf den beschädigten Amboss.\n- Der Amboss repariert sich schrittweise um eine Stufe, bis er wieder wie neu glänzt.\n",
+        "images": [],
+        "modSlug": "anvil-restoration",
+        "modName": "Anvil Restoration",
+        "modIconUrl": "https://cdn.modrinth.com/data/bd8nwTGy/e070e35165d96e19ba0d491db5850546618fce2c.gif"
+      },
+      {
+        "id": "chap-gp-2",
+        "title": "Bottle Your Xp",
+        "content": "## Erfahrungspunkte in Flaschen abfüllen\n\nSchütze deine wertvollen Level vor dem nächsten gefährlichen Ausflug!\n\n- Nimm eine leere **Glasflasche** in die Hand.\n- Halte **`Shift` (Schleichen)** gedrückt und mache einen **Rechtsklick**.\n- Deine aktuellen EP werden in eine **Erfahrungsflasche (Bottle o' Enchanting)** gefüllt, die du in Kisten lagern oder später wieder werfen kannst.\n",
+        "images": [],
+        "modSlug": "bottle-your-xp",
+        "modName": "Bottle Your Xp",
+        "modIconUrl": "https://cdn.modrinth.com/data/bG2afBot/2d76f4be03173eb4b3761e2da4c0e6456d8ad239_96.webp"
+      },
+      {
+        "id": "chap-gp-3",
+        "title": "Crying Portals",
+        "content": "## Portale mit Weinendem Obsidian\n\nNormalerweise kann Weinender Obsidian (Crying Obsidian) nicht für Portale verwendet werden. Mit dieser Mod ist das anders!\n\n- Du kannst **Weinenden Obsidian** frei mit normalem Obsidian im Rahmen deines Nether-Portals mischen.\n- So entstehen optisch spektakuläre Portale mit lila Partikeleffekten!\n",
+        "images": [],
+        "modSlug": "crying-portals",
+        "modName": "Crying Portals",
+        "modIconUrl": "https://cdn.modrinth.com/data/3RkVNglH/6978d30c5b0ea1360ed49263a44fb83af8a89a82_96.webp"
+      },
+      {
+        "id": "chap-gp-4",
+        "title": "Cycle Paintings",
+        "content": "## Bilder per Klick durchwechseln\n\nNie wieder zwanzigmal ein Gemälde abreißen und neu platzieren, bis das Wunschmotiv erscheint!\n\n- Rechtsklicke einfach mit **leerer Hand** auf ein bereits platziertes Gemälde.\n- Das Motiv wechselt sofort zum nächsten Bild der gleichen Größe durch.\n",
+        "images": [],
+        "modSlug": "cycle-paintings",
+        "modName": "Cycle Paintings",
+        "modIconUrl": "https://cdn.modrinth.com/data/c85whkNB/419e8bc32e8ab5b7b63a7388c1319106365f99e1.gif"
+      },
+      {
+        "id": "chap-gp-5",
+        "title": "Dismount Entity",
+        "content": "## Mobs bequem aus Booten entlassen\n\nSitzt ein Dorfbewohner, ein Creeper oder ein Pferd in deinem Boot oder deiner Lore fest?\n\n- Halte **`Shift` (Schleichen)** gedrückt und **rechtsklicke** das Tier oder Monster.\n- Die Kreatur steigt sofort friedlich aus dem Fahrzeug aus!\n",
+        "images": [],
+        "modSlug": "dismount-entity",
+        "modName": "Dismount Entity",
+        "modIconUrl": "https://cdn.modrinth.com/data/H7N61Wcl/6c57013ab20342502a79713c341d2acc8dbb954a_96.webp"
+      },
+      {
+        "id": "chap-gp-6",
+        "title": "Double Doors",
+        "content": "## Synchrone Doppeltüren & Tore\n\nTüren, Falltüren und Zauntore, die nebeneinander platziert sind, öffnen und schließen sich immer automatisch **als Paar**, wenn du eine davon anklickst – ganz ohne komplizierte Redstone-Verdrahtung!\n",
+        "images": [],
+        "modSlug": "double-doors",
+        "modName": "Double Doors",
+        "modIconUrl": "https://cdn.modrinth.com/data/JrvR9OHr/bf25550d32342e00b8a8065a99f83f22e34b3d88_96.webp"
+      },
+      {
+        "id": "chap-gp-7",
+        "title": "Easy Elytra Takeoff",
+        "content": "## Elytra-Start vom flachen Boden\n\nKein umständliches Hüpfen und Timing mehr nötig:\n- Trage deine Elytra und halte eine Feuerwerksrakete in der Hand.\n- Drücke einfach die **Sprungtaste (`Leertaste`) doppelt** auf flachem Boden, um sofort abzuheben und loszufliegen!\n",
+        "images": [],
+        "modSlug": "easy-elytra-takeoff",
+        "modName": "Easy Elytra Takeoff",
+        "modIconUrl": "https://cdn.modrinth.com/data/3hqwGCUB/fbcd6cd4822316ee5530687729ec8969dca409e0_96.webp"
+      },
+      {
+        "id": "chap-gp-8",
+        "title": "Forgiving Void",
+        "content": "## Schutz vor dem Sturz ins Nichts\n\nWenn du im End oder durch ein Loch im Grundgestein in die Leere (das Void) stürzt, verlierst du nicht dein gesamtes Inventar:\n- Du wirst rechtzeitig nach oben über die Inseln teleportiert.\n- Du erleidest moderaten Fallschaden, behältst aber dein Leben und deine mühsam erfarmte Ausrüstung!\n",
+        "images": [],
+        "modSlug": "forgiving-void",
+        "modName": "Forgiving Void",
+        "modIconUrl": "https://cdn.modrinth.com/data/1vkzEZjE/88c61d4ff202fafa3de8feeee7ea2dcf9c8b521a_96.webp"
+      },
+      {
+        "id": "chap-gp-9",
+        "title": "Grass Seeds",
+        "content": "## Gras aus Weizensamen pflanzen\n\nKeine Behutsamkeits-Schaufel (Silk Touch) zur Hand?\n- Klicke mit normalen **Weizensamen** per Rechtsklick auf einen Erdblock.\n- Der Erdblock verwandelt sich sofort in einen echten, grünen **Grasblock**!\n",
+        "images": [],
+        "modSlug": "grass-seeds",
+        "modName": "Grass Seeds",
+        "modIconUrl": "https://cdn.modrinth.com/data/Y6d4uRJn/2adca83ef0059dd8d0a0267404cc329f809f13db_96.webp"
+      },
+      {
+        "id": "chap-gp-10",
+        "title": "Gravestones",
+        "content": "## Sicherer Grabstein mit EP-Schutz\n\n- **Exklusiver Zugriff:** Nur du selbst kannst deinen eigenen Grabstein öffnen (`owner_only: true`).\n- **Erfahrungspunkte gesichert:** Der Grabstein bewahrt neben all deinen Gegenständen auch deine gesammelten **Erfahrungspunkte** auf!\n- Die genauen Koordinaten deines Todes werden dir im Chat angezeigt.\n",
+        "images": [],
+        "modSlug": "pneumono_gravestones",
+        "modName": "Gravestones",
+        "modIconUrl": "https://cdn.modrinth.com/data/Heh3BbSv/e10b4d60fb1d7eb24044b8c40f0eec4346e5894a_96.webp"
+      },
+      {
+        "id": "chap-gp-11",
+        "title": "Healing Campfire",
+        "content": "## Gemütliche Heilung am Lagerfeuer\n\nLagerfeuer sind nicht nur Zierde:\n- Brennende Lagerfeuer und Seelenlagerfeuer verleihen Spielern im Umkreis von ca. 4-5 Blöcken den **Regenerations-Effekt**.\n- Ideal für die erste Nacht oder als Rastplatz nach anstrengenden Höhlentouren!\n",
+        "images": [],
+        "modSlug": "healing-campfire",
+        "modName": "Healing Campfire",
+        "modIconUrl": "https://cdn.modrinth.com/data/kOuPUitF/b85e2aa910202cffc6a5b9569dbd578480decad8_96.webp"
+      },
+      {
+        "id": "chap-gp-12",
+        "title": "Just Mob Heads",
+        "content": "## Trophäen von Monstern & Tieren\n\nFast jedes getötete Lebewesen (Zombies, Skelette, Creeper, Tiere und Bosse) hat eine kleine Chance, seinen **Kopf als Trophäe** zu hinterlassen.\n",
+        "images": [],
+        "modSlug": "just-mob-heads",
+        "modName": "Just Mob Heads",
+        "modIconUrl": "https://cdn.modrinth.com/data/jzTUm9hE/cb957412f605d0f74f10bd263c17198760fc2919_96.webp"
+      },
+      {
+        "id": "chap-gp-13",
+        "title": "Just Player Heads",
+        "content": "## Köpfe gefallener Spieler\n\nWird ein Spieler im PvP besiegt oder stirbt durch ein Missgeschick, hinterlässt er seinen eigenen Spielerkopf mit seinem Skin als Erinnerungsstück.\n",
+        "images": [],
+        "modSlug": "just-player-heads",
+        "modName": "Just Player Heads",
+        "modIconUrl": "https://cdn.modrinth.com/data/YdVBZMNR/a73dd2c85fe93e1f4bdfbb5ef08249299784031e_96.webp"
+      },
+      {
+        "id": "chap-gp-14",
+        "title": "Keep My Soil Tilled",
+        "content": "## Schutz vor Feldtrampeln\n\nGepflügte Ackerböden (Farmland) werden nicht mehr zerstört, wenn du oder Mobs darauf herumspringen. Deine Saaten bleiben stets sicher im Boden!\n",
+        "images": [],
+        "modSlug": "keep-my-soil-tilled",
+        "modName": "Keep My Soil Tilled",
+        "modIconUrl": "https://cdn.modrinth.com/data/OC5Zubbe/3267eb5c895aba79777b5719fc26d50cd3547def.gif"
+      },
+      {
+        "id": "chap-gp-15",
+        "title": "Let Me Despawn",
+        "content": "## Performance & Mob-Cap Optimierung\n\nIn normalem Minecraft despawnen Monster niemals, wenn sie zufällig herumliegende Items aufgehoben haben. *Let Me Despawn* behebt diesen Bug: Monster despawnen nach einiger Zeit ordnungsgemäß, um die Serverleistung zu schonen.\n",
+        "images": [],
+        "modSlug": "lmd",
+        "modName": "Let Me Despawn",
+        "modIconUrl": "https://cdn.modrinth.com/data/vE2FN5qn/2609f745e46bd92e57a67e1da07319eb2154c6f7.png"
+      },
+      {
+        "id": "chap-gp-16",
+        "title": "Move Boats",
+        "content": "## Boote an Land bewegen\n\nBoote bleiben an Land nicht mehr hängen. Du kannst Boote auf Sand, Erde und Eis durch Gegenlaufen oder Schieben bequem weitertransportieren!\n",
+        "images": [],
+        "modSlug": "move-boats",
+        "modName": "Move Boats",
+        "modIconUrl": "https://cdn.modrinth.com/data/7qPEjpyt/3566e5cd23163fc4ebdc383b0f81730f58827418_96.webp"
+      },
+      {
+        "id": "chap-gp-17",
+        "title": "Move Minecarts",
+        "content": "## Loren per Hand schieben\n\nLoren lassen sich durch einfaches Gegenlaufen oder Schieben in Bewegung setzen, selbst wenn keine Antriebsschienen darunterliegen.\n",
+        "images": [],
+        "modSlug": "move-minecarts",
+        "modName": "Move Minecarts",
+        "modIconUrl": "https://cdn.modrinth.com/data/JpVB2WA8/179ca42fec002f42eaeec5357fce558de42cb14b_96.webp"
+      },
+      {
+        "id": "chap-gp-18",
+        "title": "Nether Portal Spread",
+        "content": "## Atmosphärische Netherportale\n\nEin geöffnetes Tor zum Nether strahlt Hitze aus: Rund um aktive Portale verwandeln sich Steinblöcke langsam in Netherrack, Magmablöcke und Seelensand.\n",
+        "images": [],
+        "modSlug": "nether-portal-spread",
+        "modName": "Nether Portal Spread",
+        "modIconUrl": "https://cdn.modrinth.com/data/z7UX4SHt/2be900e78b2d93430a76e635485b7b31a349f50c_96.webp"
+      },
+      {
+        "id": "chap-gp-19",
+        "title": "RightClickHarvest",
+        "content": "## Ernte per Rechtsklick\n\nRechtsklicke einfach auf ausgewachsenen Weizen, Karotten, Kartoffeln oder Früchte aus *Farmer's Delight*. Die Frucht wird sofort geerntet und automatisch neu gepflanzt!\n",
+        "images": [],
+        "modSlug": "rightclickharvest",
+        "modName": "RightClickHarvest",
+        "modIconUrl": "https://cdn.modrinth.com/data/Cnejf5xM/b6e535989217836c2adc49b06f4b3c8f429afda3_96.webp"
+      },
+      {
+        "id": "chap-gp-20",
+        "title": "Scaffolding Drops Nearby",
+        "content": "## Sauberes Gerüst-Abbauen\n\nBaust du den untersten Block eines hohen Gerüsts ab, landen alle herabfallenden Gerüstblöcke gesammelt direkt vor deinen Füßen statt in alle Richtungen verstreut.\n",
+        "images": [],
+        "modSlug": "scaffolding-drops-nearby",
+        "modName": "Scaffolding Drops Nearby",
+        "modIconUrl": "https://cdn.modrinth.com/data/uO522mgw/2faf4d3942f0edda2d88515b5cc1fb716b0dd3f1_96.webp"
+      },
+      {
+        "id": "chap-gp-21",
+        "title": "Skeleton Horse Spawn",
+        "content": "## Natürliche Skelettpferde\n\nSkelettpferde spawnen gelegentlich nachts als seltene und friedliche Geschöpfe in der Wildnis und können gezähmt und geritten werden.\n",
+        "images": [],
+        "modSlug": "skeleton-horse-spawn",
+        "modName": "Skeleton Horse Spawn",
+        "modIconUrl": "https://cdn.modrinth.com/data/ZcqNoW8j/d9a8c687ac9a02f2655e61ab73bfdef0573ba2b8_96.webp"
+      },
+      {
+        "id": "chap-gp-22",
+        "title": "Sleep Sooner",
+        "content": "## Früher zu Bett gehen\n\nDu musst nicht mehr bis zur tiefen Nacht warten: Bereits in der Dämmerung oder bei aufziehendem Unwetter kannst du dich ins Bett legen!\n",
+        "images": [],
+        "modSlug": "sleep-sooner",
+        "modName": "Sleep Sooner",
+        "modIconUrl": "https://cdn.modrinth.com/data/NHjSAFFN/84c50520332a68af16219348099e5f5f9bc28faa_96.webp"
+      },
+      {
+        "id": "chap-gp-23",
+        "title": "Snowballs Freeze Mobs",
+        "content": "## Schneebälle mit Kälteschaden\n\nSchneebälle frieren getroffene Mobs kurzzeitig ein und verlangsamen sie stark. Extrem wirkungsvoll gegen feurige Monster wie Lohen und Magmaschleime!\n",
+        "images": [],
+        "modSlug": "snowballs-freeze-mobs",
+        "modName": "Snowballs Freeze Mobs",
+        "modIconUrl": "https://cdn.modrinth.com/data/ETKe9DNz/2bd8b13e3f8da2ff17f531ca7a9516c750f6c75b_96.webp"
+      },
+      {
+        "id": "chap-gp-24",
+        "title": "Wool Tweaks",
+        "content": "## Wolle entfärben & Teppiche recyclen\n\n- Klicke mit farbiger Wolle auf einen mit Wasser gefüllten Kessel, um die Farbe auszuwaschen.\n- Teppiche lassen sich im Crafting-Feld wieder zu vollen Wollblöcken zurückverwandeln.\n",
+        "images": [],
+        "modSlug": "wool-tweaks",
+        "modName": "Wool Tweaks",
+        "modIconUrl": "https://cdn.modrinth.com/data/lqQsKUma/0f45c713121b7ae655977ec2566f954d7e570dbd_96.webp"
+      },
+      {
+        "id": "chap-gp-25",
+        "title": "Zombie Horse Spawn",
+        "content": "## Seltene Zombiepferde\n\nZombiepferde können nachts selten in der Welt angetroffen werden. Sie sind immun gegen Verrottung und können gezähmt und geritten werden.\n",
+        "images": [],
+        "modSlug": "zombie-horse-spawn",
+        "modName": "Zombie Horse Spawn",
+        "modIconUrl": "https://cdn.modrinth.com/data/owDBGfRd/d78c8cbacb6bde5cfac9d65431b459216ead5071_96.webp"
+      },
+      {
+        "id": "chap-gp-26",
+        "title": "Better Spawner Control",
+        "content": "## Monster-Spawner bändigen\n\nSpawner in Dungeons können durch vollständiges Ausleuchten mit Fackeln dauerhaft deaktiviert werden.\n",
+        "images": [],
+        "modSlug": "better-spawner-control",
+        "modName": "Better Spawner Control",
+        "modIconUrl": ""
+      },
+      {
+        "id": "chap-gp-27",
+        "title": "Friends & Foes",
+        "content": "## Die Kreaturen der Mob-Votes\n\nFriends & Foes ergänzt verlorene Kreaturen:\n- **Kupfergolem:** Crafte ihn aus Kupferblöcken; er drückt gerne Knöpfe und oxidiert mit der Zeit (kann mit einer Axt entwachst werden).\n- **Glare:** Fliegt zu dunklen Orten, an denen Monster spawnen können.\n- **Moobloom:** Eine goldene Blumenkuh, die Bienen anlockt.\n",
+        "images": [],
+        "modSlug": "friends-and-foes",
+        "modName": "Friends & Foes",
+        "modIconUrl": ""
+      },
+      {
+        "id": "chap-gp-28",
+        "title": "Armor Statues",
+        "content": "## Individuelle Rüstungsständer\n\nRüstungsständer können mit Armen ausgestattet, in jede beliebige Pose gebracht und ohne Sockel aufgestellt werden.\n",
+        "images": [],
+        "modSlug": "armor-statues",
+        "modName": "Armor Statues",
+        "modIconUrl": ""
+      },
+      {
+        "id": "chap-gp-29",
+        "title": "Music Disc Maker",
+        "content": "## Eigene Musik-Schallplatten\n\nErmöglicht das Brennen eigener Lieblingsmusik auf leere Schallplatten, um sie im Plattenspieler mit Freunden anzuhören.\n",
+        "images": [],
+        "modSlug": "music-disc-maker",
+        "modName": "Music Disc Maker",
+        "modIconUrl": ""
+      },
+      {
+        "id": "chap-gp-30",
+        "title": "Shogi (Japanisches Schach)",
+        "content": "## Brettspielpausen im Spiel\n\nDu kannst Shogi-Bretter und Spielsteine herstellen und direkt in Minecraft eine Partie traditionelles japanisches Schach spielen.\n",
+        "images": [],
+        "modSlug": "shogi",
+        "modName": "Shogi",
+        "modIconUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "end-remastered",
+    "modSlug": "end-remastered",
+    "title": "End Remastered (Das Tor zum End)",
+    "iconUrl": "https://i.imgur.com/2ROuTJe.png",
+    "summary": "Die Suche nach den antiken Augen – Wie du das End-Portal aktivierst",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "er-chap-0",
+        "title": "1. Einführung & Was verändert End Remastered?",
+        "content": "## Was macht End Remastered?\n\n**End Remastered** überarbeitet das Erreichen der End-Dimension von Grund auf und verwandelt den Weg zum Enderdrachen in ein echtes, episches Rollenspiel-Abenteuer!\n\n### Warum diese Mod das Spiel verändert:\n- **Kein monotones Grinden mehr:** Im Vanilla-Spiel reicht es, ein paar Lohen und Endermen zu farmen, um ein Dutzend Enderaugen zu craften und das Portal zu öffnen.\n- **Eine echte Weltenreise:** End Remastered ersetzt die Standard-Enderaugen durch **viele verschiedene, antike Augen**, die über die gesamte Welt in Tempeln, Festungen, Schiffswracks und bei mächtigen Bossen verstreut sind.\n- **Das antike Schloss:** Das Portal befindet sich nicht mehr in einer gewöhnlichen Festung (Stronghold), sondern in einem riesigen, spektakulären **End Castle** mit Verließen und Türmen.\n\n> **WICHTIGER HINWEIS:** Herkömmliche Enderaugen sind für das Portal auf unserem Server **vollständig deaktiviert**! Du musst zwingend die antiken Augen sammeln.\n",
+        "images": []
+      },
+      {
+        "id": "er-chap-1",
+        "title": "2. Wichtige Portal-Regeln",
+        "content": "## Die Spielregeln des antiken Tores\n\n1. **Enderaugen:** Normale Enderaugen können weder geworfen werden, noch passen sie in die neuen Portalrahmen.\n2. **Die antiken Augen werfen:** Wenn du ein antikes Auge in die Hand nimmst und rechtsklickst, weist es dir wie gewohnt den Weg zum geheimen **End Castle** (Bruchwahrscheinlichkeit: 10 %).\n3. **Augen wieder herausnehmen:** Hast du ein Auge versehentlich in den falschen Rahmen gesetzt, kannst du es auf unserem Server mit einem Rechtsklick einfach wieder sicher herausnehmen!\n",
+        "images": []
+      },
+      {
+        "id": "er-chap-2",
+        "title": "3. Die Fundorte der antiken Augen",
+        "content": "## Wo finde ich die Augen?\n\nDu benötigst 12 verschiedene Augen, um das Portal zu vervollständigen:\n\n1. **Old Eye (Altes Auge):** Zu finden in Wüstentempeln.\n2. **Nether Eye (Nether-Auge):** Gecraftet aus Lohenruten, Magmacreme und Nether-Rohstoffen.\n3. **Black Eye (Schwarzes Auge):** In Truhen versunkener Schiffswracks auf dem Meeresgrund.\n4. **Cold Eye (Kaltes Auge):** In versteckten Iglu-Kellern im ewigen Eis.\n5. **Corrupted Eye (Verdorbenes Auge):** In Beutetruhen von Pillager-Außenposten.\n6. **Lost Eye (Verlorenes Auge):** In Schatztruhen verlassener Minenschächte (Mineshafts).\n7. **Rogue Eye (Schurken-Auge):** Tief im Dschungeltempel verborgen.\n8. **Cursed Eye (Verfluchtes Auge):** Wird von Evokern in Waldanwesen (Woodland Mansions) gedroppt.\n9. **Evil Eye (Böses Auge):** Kann bei Meisterschmieden oder Priestern in Dörfern ertauscht werden.\n10. **Guardian Eye (Wächter-Auge):** Belohnung für den Sieg über den Elder Guardian im Ozeanmonument.\n11. **Magical Eye (Magisches Auge):** Seltene Beute von Hexen.\n12. **Wither Eye (Wither-Auge):** Gecraftet mit einem Netherstern nach dem Sieg über den Wither.\n13. **Cryptic Eye (Kryptisches Auge):** Erhältlich durch Ausgrabungen in antiken Ruinen.\n",
+        "images": []
+      },
+      {
+        "id": "er-chap-3",
+        "title": "4. Das Tor zum End aktivieren",
+        "content": "## Das Schloss öffnen\n\n1. Folge den geworfenen Augen, bis du das gewaltige **End Castle** entdeckst.\n2. Kämpfe dich zum zentralen Portalraum durch.\n3. Setze 12 verschiedene antike Augen in die Portalrahmen ein.\n4. Sobald alle Rahmen befüllt sind, öffnet sich das Tor zum End und der Kampf gegen den Enderdrachen kann beginnen!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "farmers-delight",
+    "modSlug": "farmers-delight",
+    "title": "Farmer's & Chef's Delight",
+    "iconUrl": "https://cdn.modrinth.com/data/7vxePowz/images/31865e0e2f25a45332b924de79746c30ae080cf7_350.webp",
+    "summary": "Messer, Schneidebretter, Kochtöpfe, stapelbare Suppen und Dorfbewohner-Köche",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "fd-chap-0",
+        "title": "1. Einführung & Was ist Farmer's Delight?",
+        "content": "## Was macht Farmer's Delight?\n\n**Farmer's Delight** verwandelt die Landwirtschaft und das Zubereiten von Nahrung von einer lästigen Pflichtaufgabe in ein tiefgehendes, lohnendes Handwerk!\n\n### Was die Mod verändert:\n- **Vielfältige Ernten:** Neue Gemüsesorten wie Tomaten, Zwiebeln, Kohl und Reis bringen Abwechslung auf deine Felder.\n- **Echtes Kochen:** Statt Fleisch einfach in den Ofen zu werfen, schneidest du Zutaten auf Schneidebrettern und kochst reichhaltige Eintöpfe, Nudeln und Pfannengerichte in Kochtöpfen und Pfannen.\n- **Mächtige Nahrungs-Buffs:** Gute Gerichte sättigen nicht nur viel länger, sondern verleihen dir Effekte, die deine Ausdauer beim Rennen schonen und dich im Kampf heilen.\n- **Gourmet-Dörfler:** Mit *Chef's Delight* gibt es spezialisierte Dorfbewohner-Köche, die mit deinen Ernten handeln!\n",
+        "images": []
+      },
+      {
+        "id": "fd-chap-1",
+        "title": "2. Messer & Schneidebrett",
+        "content": "## Vorbereitung in der Küche\n\n- **Messer (Knives):** Gecraftet aus Feuerstein, Eisen, Gold oder Diamant. Wenn du Tiere mit dem Messer erlegst, erhältst du mehr Fleisch, Leder und Knochen. Beim Zerstören von Gras gewinnst du **Stroh** für Strohballen und Seile.\n- **Schneidebrett (Cutting Board):** Platziere Fleisch, Fisch oder Gemüse per Rechtsklick darauf und schneide es mit dem Messer in Scheiben und Filets.\n- **Glücks-Bonus:** Schneidest du mit einem Messer, das mit *Glück* (Fortune) verzaubert ist, erhältst du am Schneidebrett zusätzliche Zutaten!\n",
+        "images": []
+      },
+      {
+        "id": "fd-chap-2",
+        "title": "3. Kochtopf, Herd & Suppen",
+        "content": "## Kochen auf offenem Feuer\n\n### Der Kochtopf (Cooking Pot):\n1. Platziere eine **Hitzequelle** auf den Boden (Lagerfeuer, Seelenlagerfeuer oder einen Herd/Stove).\n2. Setze den **Kochtopf** direkt darüber.\n3. Lege deine Zutaten hinein und stelle leere Schüsseln in den Servierslot.\n4. Sobald das Gericht gekocht ist, füllt es sich automatisch in deine Schüsseln.\n\n> **Server-Feature:** In unserem Modpack sind Suppen und Eintöpfe (Pilzsuppe, Rote-Bete-Suppe, Kanincheneintopf) **im Inventar stapelbar**!\n",
+        "images": []
+      },
+      {
+        "id": "fd-chap-3",
+        "title": "4. Buffs, Tomatenseile & Köche",
+        "content": "## Besondere Features\n\n- **Genährt (Nourished):** Verhindert, dass deine Hungerleiste beim Sprinten oder Springen absinkt.\n- **Komfort (Comfort):** Regeneriert kontinuierlich Leben, selbst wenn deine Hungerkeulen nicht voll sind.\n- **Tomatenseile:** Tomatenpflanzen können an senkrechten Seilen (**Ropes**) nach oben klettern und liefern so auf kleinem Raum riesige Erträge!\n- **Chef's Delight:** Platziere einen Kochtopf oder Herd neben einem arbeitslosen Dorfbewohner, damit er zum **Koch** wird und Delikatessen verkauft.\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "toms-storage",
+    "modSlug": "toms-storage",
+    "title": "Tom's Simple Storage Mod",
+    "iconUrl": "https://cdn.modrinth.com/data/XZNI4Cpy/icon.png",
+    "summary": "Zentraler Kistenzugriff, Terminal-Schnelltaste 'G' und Reichweiten",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "ts-chap-0",
+        "title": "1. Einführung & Was ist Tom's Simple Storage?",
+        "content": "## Was macht Tom's Simple Storage?\n\nJeder Minecraft-Spieler kennt das Problem: Nach ein paar Tagen Spielzeit steht man vor einer riesigen Wand aus 50 Kisten und sucht minutenlang nach einem bestimmten Item.\n\n**Tom's Simple Storage Mod** löst dieses Problem komplett – und zwar auf genial einfache Art und Weise!\n\n### Die Vorteile auf einen Blick:\n- **Ein einziges Terminal für alle Kisten:** Die Mod verbindet all deine normalen Truhen, Fässer und Kisten zu einem riesigen virtuellen Lager.\n- **Suchleiste & Sortierung:** Du öffnest ein einziges Fenster, tippst \"Diamant\" in die Suchleiste und hast sofort Zugriff darauf.\n- **Integriertes Crafting:** Mit dem Crafting-Terminal kannst du direkt aus dem Lager heraus Werkzeuge und Blöcke bauen.\n- **Drahtloser Zugriff:** Mit einem Funkterminal kannst du überall in deiner Basis per Tastendruck auf deine Kisten zugreifen!\n",
+        "images": []
+      },
+      {
+        "id": "ts-chap-1",
+        "title": "2. Zentraler Kistenzugriff & Taste 'G'",
+        "content": "## Der Grundaufbau des Lagers\n\n1. Stelle deine normalen Kisten oder Fässer nebeneinander auf.\n2. Platziere einen **Storage Connector (Inventar-Anschluss)** an einer der Kisten. Alle Kisten, die sich berühren, gehören nun automatisch zum Lagernetzwerk.\n3. Platziere ein **Storage Terminal** oder ein **Crafting Terminal** direkt an den Connector oder verbinde es per Kabel.\n\n### Deine Schnelltaste:\n- **`G`** – **Drahtloses Terminal öffnen!** Wenn du ein Funkterminal (Wireless Terminal) in deinem Inventar trägst, kannst du mit `G` jederzeit von unterwegs direkt in dein Lager schauen!\n",
+        "images": []
+      },
+      {
+        "id": "ts-chap-2",
+        "title": "3. Exakte Funk-Reichweiten",
+        "content": "## Reichweiten des Funksystems\n\nJe nach Ausbaustufe reicht das Signal deines Funkterminals unterschiedlich weit:\n- **Standard Wireless Terminal:** Bis zu **16 Blöcke** Reichweite.\n- **Advanced Wireless Terminal:** Bis zu **64 Blöcke** Reichweite.\n- **Mit Leuchtfeuer (Beacon):**\n  - Steht ein Leuchtfeuer (Stufe 1) an deiner Basis, ist der Funkzugriff in der gesamten Dimension unbegrenzt!\n  - Mit einem Beacon der Stufe 4 funktioniert der Zugriff sogar **dimensionsübergreifend** (z. B. aus dem Nether in die Overworld)!\n",
+        "images": []
+      },
+      {
+        "id": "ts-chap-3",
+        "title": "4. Kabel & Leitungs-Tarnung",
+        "content": "## Kabel verlegen & verstecken\n\n- **Inventory Cable:** Verbindet getrennte Kistengruppen über weite Strecken mit dem Hauptanschluss (unterstützt bis zu 2.048 Kabelblöcke).\n- **Framed Inventory Cable:** Kann in der Werkbank mit jedem Baublock kombiniert werden. So sieht das Kabel exakt wie deine Steinwand oder dein Holzfußboden aus!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "extended-drawers",
+    "modSlug": "extended-drawers",
+    "title": "Extended Drawers",
+    "iconUrl": "https://avatars.githubusercontent.com/u/61198884?v=4",
+    "summary": "Schubladen mit bis zu 16.384 Items pro Fach und sicherem Umzug",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "ed-chap-0",
+        "title": "1. Einführung & Was sind Extended Drawers?",
+        "content": "## Was machen Extended Drawers?\n\nWenn du Minen gräbst oder große Burgen baust, hast du oft zehntausende Blöcke von derselben Sorte (Bruchstein, Erde, Kies, Erze), die normale Kisten in Minuten verstopfen.\n\n**Extended Drawers** bietet dafür die perfekte Lösung: **Lagerschubladen**!\n\n### Das Konzept:\n- Jede Schublade zeigt das gelagerte Item und die genaue Stückzahl direkt als 3D-Symbol auf der Frontseite an.\n- Ein einzelnes Fach fasst nicht nur einen Stack, sondern tausende Blöcke auf einmal.\n- Keine Menüs nötig: Items werden blitzschnell mit einem einzigen Rechtsklick eingelagert und mit Linksklick entnommen!\n",
+        "images": []
+      },
+      {
+        "id": "ed-chap-1",
+        "title": "2. Bedienung & Kapazitäten",
+        "content": "## Schubladen-Typen & Klicksteuerung\n\n### Schubladen-Größen:\n- **1x1 Drawer:** 1 großes Fach für Massenware.\n- **1x2 Drawer:** 2 getrennte Fächer.\n- **2x2 Drawer:** 4 getrennte Fächer auf einem Block.\n\n### Klicksteuerung:\n- **Rechtsklick:** Legt das gehaltene Item hinein.\n- **Doppel-Rechtsklick:** Sortiert alle Items dieser Sorte aus deinem Inventar ein.\n- **Linksklick:** Entnimmt 1 Item.\n- **Shift + Linksklick:** Entnimmt einen vollen Stack (64 Stück).\n\n### Kapazitäten:\n- **Basis:** 1.024 Items pro Fach.\n- **Tier 1 bis 4 Upgrades:** Erweitern die Kapazität auf 2.048, 4.096, 8.192 bis hin zu **16.384 Items pro Fach**!\n",
+        "images": []
+      },
+      {
+        "id": "ed-chap-2",
+        "title": "3. Sicherer Transport & Schloss",
+        "content": "## Umziehen ohne Item-Chaos\n\n> **Wichtiges Feature:** Auf unserem Server behalten Schubladen ihren Inhalt beim Abbauen (`drawersDropContentsOnBreak: false`)!\n\n- Wenn du eine volle Schublade abbaust, fällt sie als kompaktes Item mit allen gespeicherten Rohstoffen ins Inventar. Du kannst dein ganzes Lager ohne Kisten-Chaos umstellen!\n- **Schloss (Lock):** Klicke mit einem Schloss auf die Schublade, um den Filter festzuhalten. Selbst wenn der Vorrat auf 0 fällt, bleibt das Fach reserviert.\n",
+        "images": []
+      },
+      {
+        "id": "ed-chap-3",
+        "title": "4. Der Drawer Controller",
+        "content": "## Zentraler Einwurf für die ganze Wand\n\n- Platziere einen **Drawer Controller** an deine Wand aus Schubladen.\n- Nach einer langen Höhlentour musst du nur noch **doppelt mit Rechtsklick** auf den Controller klicken: Alle passenden Erze, Steine und Baustoffe aus deinem gesamten Inventar werden automatisch in die richtigen Schubladen einsortiert!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "waystones",
+    "modSlug": "waystones",
+    "title": "Waystones (Wegsteine)",
+    "iconUrl": "https://cdn.modrinth.com/data/LOpKHB2A/d56c030a875582aff5bab477ddcfec317a1610f0_96.webp",
+    "summary": "Schnellreise-Netzwerk, Karten-Integration, EP-Kosten und Leinen-Mitnahme",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "ws-chap-0",
+        "title": "1. Einführung & Was sind Waystones?",
+        "content": "## Was machen Waystones?\n\nDie Welt von Minecraft ist gigantisch. Wenn deine Freunde tausende Blöcke entfernt siedeln oder du zwischen deiner Hauptbasis, einer Wüstenstadt und einer Bergbaumine pendeln möchtest, verbringst du oft Stunden nur mit Laufen.\n\n**Waystones** (Wegsteine) bieten ein atmosphärisches, faires Schnellreise-System aus alten Steinmonolithen, die dich blitzschnell über jede Distanz transportieren.\n\n### Kern-Features:\n- **Natürlich generiert & craftbar:** Wegsteine stehen in vielen Dörfern und können auch selbst hergestellt werden.\n- **Persönliches Verzeichnis:** Einmal aktiviert, kannst du jederzeit von jedem Wegstein aus zu all deinen anderen Wegsteinen reisen.\n- **Karten-Integration:** Jeder freigeschaltete Wegstein wird automatisch mit Namen auf der BlueMap-Webkarte und in JourneyMap markiert!\n",
+        "images": []
+      },
+      {
+        "id": "ws-chap-1",
+        "title": "2. Wegsteine nutzen & Leinen-Mitnahme",
+        "content": "## Aktivierung & Tier-Mitnahme\n\n1. **Aktivieren:** Rechtsklicke einen neu entdeckten Wegstein. Er fängt an zu leuchten und wird deiner Reiseliste hinzugefügt.\n2. **Benennen:** Du kannst den Namen des Wegsteins anpassen (z. B. \"Pascal's Schmiede\").\n3. **Reisen:** Rechtsklicke auf den Wegstein, wähle dein Ziel aus der Liste und du wirst sofort teleportiert.\n\n> **Tiere an der Leine:** Führst du Pferde, Kühe oder andere Tiere an einer **Leine**, werden sie beim Teleportieren **automatisch mitgenommen**!\n",
+        "images": []
+      },
+      {
+        "id": "ws-chap-2",
+        "title": "3. Reisekosten, Schriftrollen & Platten",
+        "content": "## Kosten & Tragbare Teleporter\n\n- **EP-Kosten:** Das Teleportieren verbraucht eine kleine Menge EP (0.01 Punkte pro Block, maximal 27 Punkte – auch dimensionsübergreifend).\n- **Warp Scroll:** Tragbare Schriftrolle, mit der du dich von überall aus zu einem beliebigen bekannten Wegstein beamen kannst.\n- **Bound Scroll:** Kann fest an einen einzigen Wegstein gebunden werden (perfekt als Notfall-Rückkehr zur Basis).\n- **Warp Plate:** Zwei verbundene Druckplatten auf dem Boden teleportieren jeden, der darauf tritt, sofort zur Partnerplatte!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "betterend-betternether",
+    "modSlug": "betterend",
+    "title": "BetterEnd & BetterNether",
+    "iconUrl": "https://cdn.modrinth.com/data/gc8OEnCC/images/d903ddf62542142b8d09ad13349ca61aa2013994.jpeg",
+    "summary": "Cincinnasit, Aeternium, schwebende Inseln und Infusions-Rituale",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "ben-chap-0",
+        "title": "1. Einführung & Was bieten BetterEnd und BetterNether?",
+        "content": "## Was machen BetterEnd & BetterNether?\n\nIm normalen Minecraft wirken der Nether und insbesondere das End oft eintönig und leer.\n\n**BetterNether** und **BetterEnd** überarbeiten diese beiden Dimensionen komplett und machen sie zu den visuell spektakulärsten Orten des gesamten Spiels!\n\n### Was dich erwartet:\n- **Dutzende neue Biome:** Glühende Pilzwälder und Nether-Städte in der Unterwelt; schimmernde Kristallberge, Schattengras-Wälder und leuchtende Nebelsümpfe im End.\n- **Neue Materialien & Metalle:** Baue *Cincinnasit* im Nether ab und schmiede mit *Aeternium* die stärkste Rüstung des gesamten Spiels.\n- **Magische Rituale:** Erschaffe mächtige Werkzeuge über das Infusions-Podest.\n",
+        "images": []
+      },
+      {
+        "id": "ben-chap-1",
+        "title": "2. Der überarbeitete Nether (BetterNether)",
+        "content": "## Schätze der Unterwelt\n\n- **Cincinnasit:** Ein gold-metallisch glänzendes Erz im Nether für edle Rüstungen, Werkzeuge und Architekturblöcke.\n- **Nether-Rubine:** Edelsteine für besonders schlagkräftige Klingen.\n- **Nether-Städte:** Riesige Kathedralen und Festungen voller Schätze und gefährlicher Wächter.\n",
+        "images": []
+      },
+      {
+        "id": "ben-chap-2",
+        "title": "3. Das lebendige End & Aeternium",
+        "content": "## Aeternium – Stärker als Netherite\n\nDas End besteht aus dichten Schattengras-Wäldern, leuchtenden Kristallbergen und Choral-Canyons.\n- **Aeternium:** Das seltenste und härteste Metall des Spiels. Es übertrifft Netherite in Haltbarkeit, Abbaugeschwindigkeit und Schutz!\n- **Thallasium:** Ein bläuliches End-Metall für Werkzeuge mittlerer Stufe.\n",
+        "images": []
+      },
+      {
+        "id": "ben-chap-3",
+        "title": "4. Das Infusions-Ritual",
+        "content": "## Magische Veredelung\n\nUm Aeternium-Ausrüstung und Portalschlüssel herzustellen:\n1. Baue ein zentrales **Infusions-Podest (Infusion Pedestal)**.\n2. Platziere 8 kleine Sockel ringförmig im Abstand von 2 Blöcken drumherum.\n3. Lege den Grundgegenstand in die Mitte und die Katalysatoren auf die äußeren Sockel.\n4. Starte das Ritual, um die magische Energie des Ends in den Gegenstand zu leiten.\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "moving-elevators",
+    "modSlug": "moving-elevators",
+    "title": "Moving Elevators (Fahrstühle)",
+    "iconUrl": "https://cdn.modrinth.com/data/9KZOe6HD/icon.png",
+    "summary": "Kabinen bis zu 11x11 Blöcke, Controller und Tastensteuerung",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "me-chap-0",
+        "title": "1. Einführung & Was ist Moving Elevators?",
+        "content": "## Was macht Moving Elevators?\n\nMöchtest du einen 50 Stockwerke hohen Wolkenkratzer bauen oder deine Minenschächte bis auf die Grundgesteinsebene verbinden, ohne jedes Mal endlose Leitern oder Treppen steigen zu müssen?\n\n**Moving Elevators** ermöglicht es dir, echte, stufenlos fahrende Personen- und Lastenaufzüge zu konstruieren – komplett ohne wackelige Redstone-Flugmaschinen!\n\n### Die Vorteile:\n- **Echte Plattformen:** Eine solide Kabine aus beliebigen Blöcken fährt sanft und ruckelfrei hoch und runter.\n- **Große Kabinen:** In unserer Server-Konfiguration werden Plattformen mit bis zu **11x11 Blöcken** Größe unterstützt!\n- **Moderne Bedienung:** Displays mit Pfeilanzeigen, Rufknöpfe pro Etage und direkte Zielstockwerkwahl in der Kabine.\n",
+        "images": []
+      },
+      {
+        "id": "me-chap-1",
+        "title": "2. Aufbau & Kabinengröße",
+        "content": "## Den Schacht vorbereiten\n\n1. Platziere einen **Elevator Controller (Aufzug-Controller)** auf der untersten Etage an die Schachtwand.\n2. Klicke mit Rechtsklick darauf, um die Plattformgröße festzulegen (bis zu 11x11 Blöcke).\n3. Baue deine Kabine aus beliebigen Bodenblöcken direkt vor dem Controller.\n4. Platziere auf allen weiteren Etagen genau senkrecht darüber weitere Controller.\n",
+        "images": []
+      },
+      {
+        "id": "me-chap-2",
+        "title": "3. Displays & Bedienung",
+        "content": "## Etagen ansteuern\n\n- **Elevator Display:** Platziere das Display über dem Controller für eine digitale Stockwerks- und Richtungsauswahl.\n- **Kabinenfahrt:** Klicke auf den Controller oder das Display in der Kabine, um dein Zielstockwerk auszuwählen.\n- **Fahrstuhl rufen:** Klicke einfach auf den Controller der Etage, auf der du wartest – die Plattform fährt sofort herbei.\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "reliable-gliders",
+    "modSlug": "reliable-gliders",
+    "title": "Reliable Gliders (Hängegleiter)",
+    "iconUrl": "https://cdn.modrinth.com/data/pVIWsXir/5bd0978079f226fe04e6e6ed92daa3f8de503d62.png",
+    "summary": "Gleitflug, Thermik über Lagerfeuern und Lava, Sturzabsicherung",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "rg-chap-0",
+        "title": "1. Einführung & Was ist Reliable Gliders?",
+        "content": "## Was macht Reliable Gliders?\n\nDie Elytra ist eine fantastische Fortbewegungsmethode, aber man bekommt sie erst ganz am Ende des Spiels nach dem Sieg über den Enderdrachen.\n\n**Reliable Gliders** schließt diese Lücke und gibt dir schon zu Beginn deines Abenteuers einen **Hängegleiter** an die Hand!\n\n### Warum du den Gleiter lieben wirst:\n- **Sicher von Bergen segeln:** Du kannst dich gefahrlos von den höchsten Gipfeln stürzen und weite Strecken durch die Lüfte zurücklegen.\n- **Kein Sturzschaden:** Der Gleiter bremst deinen Fall zuverlässig ab.\n- **Echte Thermik-Physik:** Fliegst du über Hitzequellen wie Lagerfeuer oder Lava, trägt dich der aufsteigende Wind wieder in die Höhe!\n",
+        "images": []
+      },
+      {
+        "id": "rg-chap-1",
+        "title": "2. Der Hängegleiter & Flugmechanik",
+        "content": "## Bedienung & Steuerung\n\n1. Crafte den Gleiter aus Leder und Stöcken in der Werkbank.\n2. Halte den Gleiter in der Hand und springe von einer Klippe.\n3. Halte **Rechtsklick** gedrückt: Der Gleiter entfaltet sich und fängt deinen Sturz sanft ab.\n4. Richte deinen Blickwinkel aus, um Geschwindigkeit und Gleitwinkel zu kontrollieren.\n",
+        "images": []
+      },
+      {
+        "id": "rg-chap-2",
+        "title": "3. Aufwinde & Thermik",
+        "content": "## Thermik über Hitzequellen nutzen\n\n- **Aufwind-Effekt:** Fliegst du über ein **Lagerfeuer**, brennendes **Netherrack** oder einen **Lavasee**, erzeugt die Hitze starken Auftrieb!\n- Dein Gleiter steigt bis zu 15 Blöcke nach oben, sodass du ohne Raketen erneut an Höhe gewinnst und ewig in der Luft bleiben kannst.\n*(Hinweis: Im Nether sind Aufwinde deaktiviert).*\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "effortless-building",
+    "modSlug": "effortless-building",
+    "title": "Effortless Building (Bautools)",
+    "iconUrl": "https://cdn.modrinth.com/data/DYtfQEYj/b603078cd4d70db57569070826f466cd7540fd56_96.webp",
+    "summary": "Radialmenü mit '^', Symmetrie-Spiegel, Linien, Wände und Undo mit NumPad 7",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "eb-chap-0",
+        "title": "1. Einführung & Was ist Effortless Building?",
+        "content": "## Was macht Effortless Building?\n\nGroße Bauprojekte in Minecraft (wie Stadtmauern, Dächer, Festungstürme oder Fußböden) erfordern oft zehntausende Klicks, bei denen man Block für Block einzeln setzen muss.\n\n**Effortless Building** nimmt dir diese monotone Klickarbeit ab, ohne dabei zu cheaten: Alle Blöcke werden fair aus deinem normalen Inventar verbraucht!\n\n### Die genialen Möglichkeiten:\n- **Schnellbau-Modi:** Ziehe ganze Linien, ziehe Wände hoch, fülle Böden mit 2 Klicks oder baue perfekte Kreise und Rundtürme ohne mühsames Abzählen.\n- **Echtzeit-Symmetrie:** Setze eine Spiegelachse und jeder Block, den du auf der linken Seite baust, erscheint automatisch auch rechts!\n- **Undo-Funktion:** Ein Klick und ein versehentlich falsch platzierter Bauschritt wird sofort rückgängig gemacht.\n",
+        "images": []
+      },
+      {
+        "id": "eb-chap-1",
+        "title": "2. Tastenbelegung & Radialmenü ('^')",
+        "content": "## Exakte Tastenbelegung\n\n### Deine Bautasten:\n- **`^` (Zirkumflex, Taste links neben der 1)** – **Öffnet das Radialmenü für die Baumodi!**\n- **`]`** – Modifikatoren-Bildschirm öffnen.\n- **`NumPad 7`** – **Rückgängig (Undo):** Macht den letzten Bauschritt sofort rückgängig!\n- **`NumPad 8`** – **Wiederholen (Redo).**\n\n### Wählbare Modi im Radialmenü:\n- **Line:** Gerade Blockreihen mit 2 Klicks ziehen.\n- **Wall:** Senkrechte Wände mit beliebiger Höhe hochziehen.\n- **Floor:** Ganze Decken und Fußböden mit einem Klick füllen.\n- **Circle / Cylinder:** Perfekte Kreise und Rundtürme bauen.\n",
+        "images": []
+      },
+      {
+        "id": "eb-chap-2",
+        "title": "3. Symmetrie & Spiegeln",
+        "content": "## Perfekt gespiegelte Bauwerke\n\n- Aktiviere im Menü (`^`) den **Spiegel-Modus (Mirror)**.\n- Setze eine Spiegelachse in die Mitte deines Tors oder deiner Kathedrale.\n- Jeder Block, den du links platzierst oder abbaust, wird **in Echtzeit auf der rechten Seite gespiegelt**!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "heart-crystals",
+    "modSlug": "heart-crystals",
+    "title": "Heart Crystals (Extra-Herzen)",
+    "iconUrl": "https://cdn.modrinth.com/data/L49lo4m9/b8989241efc106ae51ba24dcc4bfd0fe9d3abda3.png",
+    "summary": "Finde Herzkristalle unter Tage und vergrößere dauerhaft deine Lebensleiste",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "hc-chap-0",
+        "title": "1. Einführung & Was sind Heart Crystals?",
+        "content": "## Was macht Heart Crystals?\n\nIn gefährlichen Dungeons und bei Bosskämpfen reichen die standardmäßigen 10 Herzen (20 Lebenspunkte) oft kaum aus, um heftigen Angriffen standzuhalten.\n\n**Heart Crystals** belohnt mutige Bergleute und Höhlenforscher damit, dass du deine maximale Lebensleiste **dauerhaft und permanent vergrößern** kannst!\n\n### So funktioniert das Prinzip:\n- Tief unter der Erde verbergen sich seltene, rötlich schimmernde Kristallerze.\n- Baust du sie ab und formst daraus einen Kristall, kannst du diesen verzehren.\n- Jeder Kristall fügt deiner Lebensleiste ein **echtes zusätzliches rotes Herz** hinzu!\n",
+        "images": []
+      },
+      {
+        "id": "hc-chap-1",
+        "title": "2. Kristalle finden, craften & essen",
+        "content": "## Vom Erz zum Extra-Herz\n\n1. Steige in die Tiefenschiefer-Schicht hinab (Deepslate, Y < 0) und halte Ausschau nach rot funkelnden **Heart Crystal Ores**.\n2. Baue das Erz mit mindestens einer Eisenspitzhacke ab, um Herzkristall-Scherben zu sammeln.\n3. Crafte aus 9 Scherben einen vollwertigen **Heart Crystal**.\n4. Nimm den Kristall in die Hand und halte **Rechtsklick** gedrückt, um ihn zu essen.\n5. **Ergebnis:** Du erhältst sofort ein permanentes Zusatzherz in deiner Leiste!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "rechiseled",
+    "modSlug": "rechiseled",
+    "title": "Rechiseled (Dekormeisel)",
+    "iconUrl": "https://cdn.modrinth.com/data/B0g2vT6l/b3d1c0f2ed2ec55eed1d6cd59c3ceb8f23b6eba3_96.webp",
+    "summary": "Verwandle einfache Baublöcke in hunderte kunstvolle Muster und Kacheln",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "rc-chap-0",
+        "title": "1. Einführung & Was ist Rechiseled?",
+        "content": "## Was macht Rechiseled?\n\nIn Vanilla-Minecraft gibt es für Stein, Holz oder Ziegel oft nur eine Handvoll Varianten (glatt, gemeißelt oder rissig). Für detailreiche Bauten fehlen oft feine Fliesen, Ornamente oder Ziersäulen.\n\n**Rechiseled** gibt Architekten und Dekorateuren ein mächtiges Werkzeug an die Hand: Den **Meißel (Chisel)**!\n\n### Was die Mod bietet:\n- **Hunderte Muster:** Verwandle Stein, Schiefer, Ziegel, Holz, Quarz und Glas in kunstvolle diagonale Fliesen, feine Kacheln, Säulenstrukturen und Flechtmuster.\n- **Kostenlose Umwandlung:** Das Ummeißeln verbraucht keine zusätzlichen Ressourcen – 1 Steinblock wird zu 1 gemeißelten Steinblock.\n- **Verbindende Texturen:** Viele Muster verbinden sich nahtlos über mehrere Blöcke hinweg zu beeindruckenden Boden- und Wandornamenten.\n",
+        "images": []
+      },
+      {
+        "id": "rc-chap-1",
+        "title": "2. Der Meißel & die Varianten",
+        "content": "## So benutzt du den Meißel\n\n1. Crafte einen **Chisel (Meißel)** aus Eisenbarren und Stöcken in der Werkbank.\n2. Halte den Meißel in der Hand und klicke mit **Rechtsklick in die Luft**, um das Chisel-Interface zu öffnen.\n3. Lege beliebige Blöcke (z. B. Steinziegel, Holzbretter, Quarz) in das linke Feld.\n4. Wähle aus Dutzenden Mustern: Säulen, diagonale Kacheln, Flechtmuster und Zierränder.\n5. Klicke das gewünschte Muster an, um die Blöcke sofort kostenlos umzuwandeln.\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "macaws-collection",
+    "modSlug": "macaws-furniture",
+    "title": "Macaw's Möbel & Bauelemente",
+    "iconUrl": "https://cdn.modrinth.com/data/dtWC90iB/2d2fdc39e9ab4c1cc56c6ce2785b6d60343bb86d_96.webp",
+    "summary": "Brücken, Dächer, Schiebetüren, Fenster, Treppen, Zäune und Möbel",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "mc-chap-0",
+        "title": "1. Einführung & Was ist die Macaw-Kollektion?",
+        "content": "## Was macht die Macaw-Kollektion?\n\nVanilla-Gebäude wirken oft blockig: Dächer müssen mühsam aus Treppenstufen gezimmert werden, Fenster bestehen aus starren Glasscheiben und Möbel muss man aus Treppen und Schildern improvisieren.\n\nDie **Macaw's Mod-Kollektion** schließt diese Lücke mit spezialisierten architektonischen Bauelementen!\n\n### Die wichtigsten Kategorien:\n- **Dächer (Roofs):** Echte schräge Dachziegel, Giebel und Firste, die stufenlos abschließen.\n- **Brücken (Bridges):** Seil-Hängebrücken und Holzstege, die sich elegant über Schluchten spannen.\n- **Fenster & Türen:** Fensterflügel zum Öffnen, Schiebetore und moderne Glastüren.\n- **Möbel & Beleuchtung:** Echte Tische, Schreibtische, Kleiderschränke, Bänke zum Sitzen und stimmige Wand- und Stehlampen.\n",
+        "images": []
+      },
+      {
+        "id": "mc-chap-1",
+        "title": "2. Dächer & Hängebrücken",
+        "content": "## Schräge Dächer & Brückenkonstruktionen\n\n- **Roofs (Dächer):** Schräge Dachziegel, Giebel und Firste in allen Holz- und Steinarten. Sie fügen sich stufenlos ohne störende Blockkanten aneinander!\n- **Bridges (Brücken):** Seil-Hängebrücken, Holzstege und Steinbrücken mit passenden Geländern über Schluchten und Gewässer.\n",
+        "images": []
+      },
+      {
+        "id": "mc-chap-2",
+        "title": "3. Fenster, Türen & Möbel",
+        "content": "## Inneneinrichtung & Fassadengestaltung\n\n- **Windows & Doors:** Flügel- und Schiebefenster zum Öffnen, moderne Glastüren und Scheunentore.\n- **Furniture (Möbel):** Schreibtische, Kleiderschränke, Nachttische und Bänke, auf die du dich per Rechtsklick setzen kannst.\n- **Lights & Lamps:** Wandlaternen, moderne Stehlampen und Deckenstrahler.\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "seasons-guide",
+    "modSlug": "serene-seasons",
+    "title": "Jahreszeiten (Seasons)",
+    "iconUrl": "https://cdn.modrinth.com/data/e0bNACJD/f8b292ea53e0a0ea908570defddc48673d16d7d6.png",
+    "summary": "24 Tage pro Jahreszeit, Temperatur, Laubfärbung und Winter-Schutz",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "sea-chap-0",
+        "title": "1. Einführung & Was bewirken Jahreszeiten?",
+        "content": "## Was machen die Jahreszeiten?\n\nIm normalen Minecraft herrscht ewiges Einheitswetter: Bäume sind immer gleich grün und Feldfrüchte wachsen das ganze Jahr über identisch schnell.\n\n**Serene Seasons** haucht deiner Spielwelt echtes Leben ein und bringt einen vollständigen **Jahreszeiten-Zyklus** in die Oberwelt!\n\n### Was sich durch die Jahreszeiten ändert:\n- **Visueller Wandel:** Im Herbst verfärbt sich das Laub der Bäume in prachtvolles Gold und Orange; im Winter legt sich Schnee über die Landschaft und Gewässer frieren zu.\n- **Saisonale Landwirtschaft:** Pflanzen wachsen am besten in ihrer jeweiligen Blütezeit – im tiefsten Winter stellen viele Feldfrüchte im Freien das Wachstum ein.\n- **Wetter-Intensität:** Sanfte Frühlingsschauer, warme Sommergewitter und eisige Winterstürme.\n",
+        "images": []
+      },
+      {
+        "id": "sea-chap-1",
+        "title": "2. Der 24-Tage-Zyklus",
+        "content": "## Die vier Jahreszeiten\n\nAuf unserem Server dauert jede Jahreszeit **24 Minecraft-Tage** (unterteilt in 3 Phasen à 8 Tage: Früh, Mitte, Spät):\n\n1. **Frühling:** Frisches Grün, schmelzender Schnee, Blumen sprießen.\n2. **Sommer:** Warme Tage, ideales Wachstum für Sonnenpflanzen.\n3. **Herbst:** Wunderbare Laubfärbung (Orange, Rot, Gelb). Haupterntezeit!\n4. **Winter:** Frost und Schnee in der gesamten Overworld, Wasserflächen frieren zu.\n",
+        "images": []
+      },
+      {
+        "id": "sea-chap-2",
+        "title": "3. Saisonale Landwirtschaft & Frostschutz",
+        "content": "## Erntezyklen & Gewächshäuser\n\n- **Fruchtbarkeit:** Achte im Tooltip von Samen auf die passenden Jahreszeiten. Außerhalb ihrer Saison wachsen Pflanzen extrem langsam oder gehen ein.\n- **Gewächshäuser:** Schütze deine Felder im Winter mit einem verglasten Dach. Unter Glas gefriert Wasser nicht und Pflanzen wachsen geschützt vor Frost!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "saros-roads-money",
+    "modSlug": "saros-road-blocks",
+    "title": "Saro's Straßen & Wirtschaft",
+    "iconUrl": "https://cdn.modrinth.com/data/vRkO4kGw/27d54e7dcb39a0161b75e5795d9c602ca9202927_96.webp",
+    "summary": "Asphalt mit Temposchub, Startgeld (100 Münzen) und kein Geldverlust beim Tod",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "srm-chap-0",
+        "title": "1. Einführung & Was bieten Saro's Mods?",
+        "content": "## Was machen Saro's Straßen & Geld?\n\nDiese beiden Mods bringen moderne Infrastruktur und ein funktionierendes Wirtschaftssystem auf unseren Server:\n\n1. **Saro's Road Blocks:** Ermöglicht den Bau echter Asphaltstraßen mit Fahrbahnmarkierungen, Zebrastreifen und Leitplanken. Wer auf diesen Straßen läuft oder mit dem Auto fährt, erhält einen **Geschwindigkeitsschub**!\n2. **Saro's Money:** Führt ein echtes Münzsystem ein, mit dem Spieler untereinander handeln oder Dienstleistungen und Rohstoffe bezahlen können.\n",
+        "images": []
+      },
+      {
+        "id": "srm-chap-1",
+        "title": "2. Straßenbau & Geschwindigkeitsboost",
+        "content": "## Schnellstraßen zwischen deinen Basen\n\n- **Asphalt & Straßenbeläge:** Spieler und Autos aus *Automobility* erhalten auf Straßenblöcken einen spürbaren **Geschwindigkeitsschub**!\n- **Markierungen:** Crafte weiße und gelbe Fahrbahnmarkierungen, Zebrastreifen und Leitplanken.\n",
+        "images": []
+      },
+      {
+        "id": "srm-chap-2",
+        "title": "3. Saro's Money (Münzen & Handel)",
+        "content": "## Das Geldsystem (Server-Regeln)\n\n- **Startguthaben:** Jeder Spieler startet mit **100 Münzen**!\n- **Kein Verlust beim Tod:** Stirbst du durch ein Missgeschick, verlierst du kein Geld (`moneyLossOnDeath: 0`).\n- **Dorfbewohner-Handel:** Dorfbewohner kaufen Rohstoffe (Eisen, Kupfer, Diamanten, Goldäpfel) gegen bare Münzen an.\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "veinminer-treeharvester",
+    "modSlug": "veinminer",
+    "title": "VeinMiner & Tree Harvester",
+    "iconUrl": "https://cdn.modrinth.com/data/OhduvhIc/5ea1f538e66ee4d4e5e571ad952cba0e06e0bd5c.png",
+    "summary": "Die 'Veinminer'-Verzauberung für Adern und automatisches Baumfällen",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "vm-chap-0",
+        "title": "1. Einführung & Was machen VeinMiner & Tree Harvester?",
+        "content": "## Was machen VeinMiner & Tree Harvester?\n\nBeim Bergbau und Holzhacken verbringt man oft viel Zeit damit, jeden einzelnen Erzblock einer großen Ader oder jeden einzelnen Holzstamm eines riesigen Baumes mühsam abzuklopfen.\n\nDiese beiden Mods machen Rohstoffabbau schnell, befriedigend und flüssig!\n\n### Die Funktionsweise:\n- **VeinMiner:** Wenn dein Werkzeug mit der Verzauberung *Veinminer* verzaubert ist, genügt ein einziger Schlag auf einen Erzblock, und die gesamte zusammenhängende Ader zerbricht sofort!\n- **Tree Harvester:** Schlage einfach den untersten Holzblock eines Baumes ab – der gesamte Stamm stürzt ein und das Laub zerfällt augenblicklich!\n",
+        "images": []
+      },
+      {
+        "id": "vm-chap-1",
+        "title": "2. Die 'Veinminer'-Verzauberung",
+        "content": "## Erzadern mit einem Schlag abbauen\n\nIn diesem Modpack ist VeinMiner als **Verzauberung** integriert:\n- Verzaubere deine Spitzhacke, Axt oder Schaufel mit der Verzauberung **Veinminer** (über den Zaubertisch oder gefundene Verzauberungsbücher).\n- Baust du mit diesem Werkzeug einen Erzblock ab, zerbricht die **gesamte zusammenhängende Erzader** auf einmal!\n- Alle Erze droppen gesammelt direkt vor deinen Füßen.\n",
+        "images": []
+      },
+      {
+        "id": "vm-chap-2",
+        "title": "3. Bäume fällen mit Tree Harvester",
+        "content": "## Schnelle Holzernte\n\n- Schlage einfach den **untersten Holzstamm** eines Baumes mit einer Axt ab.\n- Der gesamte Stamm bricht zusammen und das Laub zerfällt sofort.\n- Wenn du nur einzelne Holzblöcke abbauen willst (z. B. an deinem Holzhaus), halte einfach **`Shift` (Schleichen)** gedrückt – dann wird nur der einzelne Block abgebaut!\n",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "journeymap-shortcuts",
+    "modSlug": "journeymap",
+    "title": "Karten & Komfort-Tasten",
+    "iconUrl": "https://cdn.modrinth.com/data/lfHFW1mp/a1c571a21a88f6fa59eab67829f216f65ab393ee_96.webp",
+    "summary": "Wegpunkte, Vollbildkarte, Block-Infos (Jade) und Zoom",
+    "createdAt": 1794670868901,
+    "updatedAt": 1794670932904,
+    "chapters": [
+      {
+        "id": "jm-chap-0",
+        "title": "1. Einführung & Wichtige Interface-Mods",
+        "content": "## Was machen die Interface- und Karten-Mods?\n\nEine übersichtliche Orientierung und sofortige Informationen über die Welt um dich herum sind unverzichtbar. Unser Modpack enthält dafür drei wichtige Helfer:\n\n1. **JourneyMap:** Eine Echtzeit-Minikarte und Vollbild-Weltkarte, die automatisch Höhlen, Terrain, Mitspieler und Todespunkte anzeigt.\n2. **Jade:** Zeigt dir beim Anvisieren von Blöcken und Kreaturen sofort Name, Abbauwerkzeug, Kisteninhalte und Lebenspunkte an.\n3. **Zoomify:** Ein stufenloser Zoom, mit dem du ferne Berge, Dörfer und Monster gestochen scharf heranholen kannst.\n",
+        "images": []
+      },
+      {
+        "id": "jm-chap-1",
+        "title": "2. JourneyMap Tasten",
+        "content": "## Die Minikarte & Vollbildkarte\n\n- **`J`** – Öffnet die große **Vollbild-Karte** mit Wegpunkt-Verwaltung.\n- **`B`** – Erstellt sofort einen neuen **Wegpunkt** an deiner aktuellen Spielerposition!\n- **`NumPad +` / `NumPad -`** – Hinein- und Herauszoomen auf der Karte.\n- **`O`** – Optionen und Einstellungen der Karte im Kartenbildschirm.\n",
+        "images": []
+      },
+      {
+        "id": "jm-chap-2",
+        "title": "3. Jade, Zoom & Shader",
+        "content": "## Nützliche Schnell-Tasten\n\n- **`Maus 4` (Daumentaste):** **Stufenloser Zoom (Zoomify)** – sieh weit entfernte Landmarken und Mobs gestochen scharf.\n- **`Shift links` (bei anvisiertem Block):** Zeigt ausführliche **Jade-Informationen** (Block-Zustand, Kisteninhalt, Mob-Leben).\n- **`NumPad 3` / `NumPad 4`:** Zeigt sofort die Rezepte / Verwendungen des anvisierten Blocks via REI an.\n- **`F10`:** Schaltet installierte **Shader (Iris)** mit einem Tastendruck an oder aus.\n- **`F8`:** Öffnet die Einstellungen von **MapFrontiers** zum Zeichnen von Grenzlinien auf der Karte.\n",
+        "images": []
+      }
+    ]
+  }
+]
