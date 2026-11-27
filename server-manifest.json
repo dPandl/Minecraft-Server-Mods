@@ -8,10 +8,28 @@
   "gameVersion": "26.3",
   "loader": "fabric",
   "loaderVersion": "0.20.1",
-  "modpackVersion": "0.0.18",
-  "publishedAt": "2026-11-25T21:02:36.374Z",
+  "modpackVersion": "0.0.19",
+  "publishedAt": "2026-11-27T16:29:14.700Z",
   "changelog": "",
   "changelogHistory": [
+    {
+      "version": "0.0.19",
+      "date": "27.11.2026",
+      "title": "Server-Update v0.0.19",
+      "changelog": "",
+      "publishedAt": "2026-11-27T16:29:14.678Z",
+      "modChanges": {
+        "added": [],
+        "updated": [
+          {
+            "name": "dreamPay",
+            "fromVersion": "0.24.2",
+            "toVersion": "0.24.6"
+          }
+        ],
+        "removed": []
+      }
+    },
     {
       "version": "0.0.18",
       "date": "25.11.2026",
@@ -4745,16 +4763,16 @@
       "iconUrl": null,
       "side": "both",
       "projectId": "custom:dp_shops",
-      "versionId": "custom-b8995c09ed9c",
-      "versionNumber": "0.24.2",
-      "filename": "dreampay-0.24.2.jar",
-      "downloadUrl": "https://raw.githubusercontent.com/dPandl/Minecraft-Server-Mods/main/custom-mods/dreampay-0.24.2.jar",
-      "sha1": "b8995c09ed9c8f9d7aa9192a4837c0b153338a07",
-      "size": 2339672,
+      "versionId": "custom-9fa392bdc583",
+      "versionNumber": "0.24.6",
+      "filename": "dreampay-0.24.6.jar",
+      "downloadUrl": "https://raw.githubusercontent.com/dPandl/Minecraft-Server-Mods/main/custom-mods/dreampay-0.24.6.jar",
+      "sha1": "9fa392bdc583b77375c2ab5019ad7c4254a0a395",
+      "size": 2342799,
       "custom": true,
       "autoDependency": false,
       "dependencies": [],
-      "addedAt": 1795545202992
+      "addedAt": 1795796873587
     },
     {
       "slug": "custom-dpextras",
